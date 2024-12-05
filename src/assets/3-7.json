@@ -1,0 +1,16 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "answer1Location": "3-11",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "Before you can even think of what to do,^500 you see a hand come out of the darkness to grab you.^1500 A large arm,^250 with a ripped up sleeve and a gloved hand tries to pull you out.",
+            "address": "3-7.png",
+            "id": "chapter-3-7",
+            "answer1": "run",
+            "answer2": ""
+        }
+    }
+}

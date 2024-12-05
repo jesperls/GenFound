@@ -1,0 +1,13 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "3-16-3",
+            "text": "You walk towards the box and go to reach for it.^1500 You’re just barely too short to reach it, so you start to slide it off the shelf.^1500 Suddenly you hear the lounge door open with a loud creak.^1500 You freeze.",
+            "answer1Location": "3-16-2",
+            "id": "chapter-3-15-2",
+            "answer1": "fight",
+            "answer2": "stay hidden"
+        }
+    }
+}

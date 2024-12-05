@@ -1,0 +1,13 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "3-14-2",
+            "text": "You enter the teacher’s lounge.^1500 You don’t think you’ve ever been in here before.^1500 You wonder what teachers could be hiding in here.^1500 Is this where they keep things they confiscate from students?^1500 Maybe you could find something to help you get out.",
+            "answer1Location": "3-14-1",
+            "id": "chapter-3-13-2",
+            "answer1": "check drawers",
+            "answer2": "check storage"
+        }
+    }
+}

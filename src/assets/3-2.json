@@ -1,0 +1,16 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "answer1Location": "3-3",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "You turn back to see where the red one once was and see the exit doors rattle, as if something is trying to get in.^1500 You begin to run.^250 You don’t look back.^250 You hear an overwhelming noise of what you can only assume to be the lockers attached to the opposite walls,^250 crashing together.^1500 You make your way to the gym and quickly close the doors behind you as two lockers crash directly in front of the steel doors.^1500 You’ll have to find another way out.",
+            "address": "",
+            "answer1": "continue",
+            "id": "chapter-3-2",
+            "answer2": ""
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "answer1Location": "3-5-4-2",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "You press the glowing button.^1500 The figure inside goes limp.^1500 You watch as the machine rattles and the lights flash.^1500 The figure springs back to life, and stops.^1500 Looking directly at you as its mouth opens.^1500<br><br>“You know this will kill you.^1500 You’re chasing someone else’s dream.^1500 You are losing everything in the process.^1500 What is it all for?^1500 The hope of salvation?^1500 The hope to do what you believe you are meant to be doing?^1500 What is it that you even want anymore?^1500 Is this even for you?^1500 Who is this for?^1500 Answer me.^1500 Please.”",
+            "address": "",
+            "answer1": "leave",
+            "id": "chapter-3-5-3-1",
+            "answer2": ""
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "3-7",
+            "answer1Location": "3-7",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "He opens the window for you,^500 pushing through the locks and precautions added to it to keep it closed.^1500 The chill of the outside breezes against your skin.",
+            "address": "3-6.png",
+            "answer1": "exit",
+            "id": "chapter-3-6",
+            "answer2": "stay"
+        }
+    }
+}

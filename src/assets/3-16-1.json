@@ -1,0 +1,11 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "text": "You sit there trying not to breath as you watch the figure walk through the room.^1500 Focused on the figure in the room, the bin slips from your hand with a loud crash.^1500 The figure draws closer.",
+            "answer1": "continue",
+            "answer1Location": "3-17-1",
+            "id": "chapter-3-16-1"
+        }
+    }
+}

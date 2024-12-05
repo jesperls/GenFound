@@ -1,0 +1,15 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "answer1Location": "3-6",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "You walk into your school laboratory.^1500 Before you can make out if maybe one of the windows are open,^500 it appears.",
+            "id": "chapter-3-5-2",
+            "answer1": "continue",
+            "answer2": ""
+        }
+    }
+}

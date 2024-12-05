@@ -1,0 +1,15 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "answer1Location": "1-2",
+            "answer3Location": "",
+            "text": "you see a long hallway with similar metal doors spaced along its walls.^1500 fluorescent lights flicker along the hallway and provide a soft blue glow.^1500 you see a tall man in a black lab coat exit from a door on your left.",
+            "answer3": "",
+            "id": "chapter-1-1",
+            "answer1": "open the door",
+            "answer2": ""
+        }
+    }
+}

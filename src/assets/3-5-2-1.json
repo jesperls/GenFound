@@ -1,0 +1,15 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "3-5-4-2",
+            "answer1Location": "3-5-3-1",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "The machine comes to life as you approach it.^1500  “W-^250w-^250well hello there!”^1500 You watch as the lights shimmer and reflect off of it’s dusty figure.^1500 The machine jitters and jolts as it talks to you.^1500 The microphone loosely sits in it’s hand as it waves it around with every word.^1500 “The future is a b-^250b-^250beautiful thing!^1500 Would you like to hear of it?^1500 I may not always be clear,^500 but I am certain!”^1500 A large glowing button sits below.^1500 “PRESS ME TO HEAR,^250 CHOOSE TO LISTEN” etched into the wood. ",
+            "id": "chapter-3-5-2-1",
+            "answer1": "press the button",
+            "answer2": "leave"
+        }
+    }
+}

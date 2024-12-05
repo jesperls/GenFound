@@ -1,0 +1,15 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "answer1Location": "3-22",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "You follow the janitor,^500 being able to keep up with ease.^1500 You try to look back at what you can only assume is chasing you,^500 but aren’t able to make anything out before the janitor starts to yell back at you.",
+            "id": "chapter-3-21",
+            "answer1": "continue",
+            "answer2": ""
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "1-6",
+            "answer1Location": "poll-1",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "you keep walking down the hallway.^1500 it seems to go on for ages.^1500 you begin to think you're somehow going in circles.",
+            "id": "chapter-1-5-1",
+            "answer1": "turn around",
+            "answer2": "keep walking"
+        }
+    }
+}

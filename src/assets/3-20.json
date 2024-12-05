@@ -1,0 +1,16 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "answer1Location": "3-21",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "The blood drains from the janitor’s face.^3000 <br><br>His head snaps around as you faintly hear the sound of crashing coming from down the hall.^3000 <br><br>“We have to get out of here.^1000 Right now.^1000 Follow me.\"",
+            "address": "",
+            "answer1": "follow",
+            "id": "chapter-3-20",
+            "answer2": ""
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "2-5-2",
+            "answer1Location": "2-5-1",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "Your name is Ben.^1500 A senior at LF high, you have made quite a name for yourself in the last 4 years.^1500 You’ve had many achievements on and off the field.^1500 A model student, the perfect life.^1500 You wake up and slowly lift your head from your desk.^1500 You look around to find that your fellow classmates and even your teacher seem to have left already.^1500 You must have slept through your last period.^1500 The class was never very exciting anyway.",
+            "id": "chapter-2-4",
+            "answer1": "look around",
+            "answer2": "inspect desk"
+        }
+    }
+}

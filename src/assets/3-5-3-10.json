@@ -1,0 +1,16 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "answer1Location": "3-5-3-11",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "You enter the theater.^1500 Looking for a fire exit,^500 or something to get you out of here.^1500 You would think after 4 years of being in this place that you would at least know how to get out,^500 but you were never good at finding an out of any kind.",
+            "address": "",
+            "answer1": "continue",
+            "id": "chapter-3-5-3-10",
+            "answer2": ""
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "1-5-1",
+            "answer1Location": "1-5",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "You keep walking down the hallway, posters for school teams and clubs line the walls. They look more worn then you remember.",
+            "id": "chapter-1-3-1",
+            "answer1": "look into window",
+            "answer2": "keep walking"
+        }
+    }
+}

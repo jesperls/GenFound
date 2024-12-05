@@ -1,0 +1,16 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "3-5-3-14-1",
+            "answer1Location": "3-5-3-13",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "You stand before the stage and watch as the set creaks and the lights buzz.^1500 You can’t tell what exactly this is supposed to be,^500 but this isn’t important to you.",
+            "address": "3-5-3-11.png",
+            "answer1": "search the theatre",
+            "id": "chapter-3-5-3-11",
+            "answer2": "leave"
+        }
+    }
+}

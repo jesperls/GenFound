@@ -1,0 +1,16 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "answer1Location": "3-13-2",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "You keep going.^1500 You run through the halls looking for somewhere to hide.",
+            "address": "",
+            "answer1": "teachers lounge",
+            "id": "chapter-3-12-1",
+            "answer2": ""
+        }
+    }
+}

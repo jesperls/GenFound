@@ -1,0 +1,16 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "answer1Location": "3-5-3-10",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "As you make your way to the theater you hear rattling coming from the windows,^500 you turn to see a large silhouette of what you can only hope is another person.^1500 As the thought enters your mind that you might be able to get some help,^500 you watch as a large bandaged hand bursts through the window.^1500 The hand feels around for any type of lock,^500 but isn’t able to open the window.^1500 The figure takes it’s hand away and walks,^500 searching for another way in.",
+            "address": "",
+            "answer1": "continue",
+            "id": "chapter-3-5-3",
+            "answer2": ""
+        }
+    }
+}

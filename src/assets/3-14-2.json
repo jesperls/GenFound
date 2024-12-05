@@ -1,0 +1,13 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "3-14-1",
+            "text": "You head to the storage closet at the back of the room.^1500 Shelves of paperwork and books line the walls.^1500 You dig through the shelves to find anything useful.^1500 Nothing but boring teacher stuff.^1500 You spot a cardboard box on the top shelf.",
+            "answer1Location": "3-15-2",
+            "id": "chapter-3-14-2",
+            "answer1": "look through shelves",
+            "answer2": "check drawers"
+        }
+    }
+}

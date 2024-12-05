@@ -1,0 +1,13 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "3-16-2",
+            "text": "You kneel down to look through the bin.^1500 You slide it out of the cupboard and peel the lid off with a loud pop.^1500 As you reach into it when you hear the door creak open.^1500 You freeze.",
+            "answer1Location": "3-16-1",
+            "id": "chapter-3-15-1",
+            "answer1": "stay hidden",
+            "answer2": "fight"
+        }
+    }
+}

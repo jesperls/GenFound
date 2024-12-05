@@ -1,0 +1,15 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "answer1Location": "3-14",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "“What are you doing here son?”^1500 <br><br>You turn to see the school janitor. ",
+            "id": "chapter-3-13",
+            "answer1": "continue",
+            "answer2": ""
+        }
+    }
+}

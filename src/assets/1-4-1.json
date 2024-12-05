@@ -1,0 +1,15 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "1-4-2",
+            "answer1Location": "1-3",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "you stand still.^1500 the lights flicker.",
+            "id": "chapter-1-4-1",
+            "answer1": "walk",
+            "answer2": "don't walk"
+        }
+    }
+}

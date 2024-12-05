@@ -1,0 +1,16 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "answer1Location": "3-2",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "You feel the whole room begin to shake.^1500 Your head pounds as your vision blurs, you feel almost out of your own body.^1500 You quickly snap out of it as lockers begin intensely spewing a strange black substance.",
+            "address": "",
+            "answer1": "continue",
+            "id": "chapter-3-1-2",
+            "answer2": ""
+        }
+    }
+}

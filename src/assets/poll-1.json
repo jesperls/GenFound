@@ -1,0 +1,17 @@
+{
+    "statusCode": 200,
+    "response": {
+        "content": {
+            "text": "you turn around and see a large door with an exit sign right above it.^1500 you push through the door without a second thought.^3000<br /><br /><br /> you are met with a hallway and two signs.^1500 one says \"laboratory\" and is pointing right.^1500 the other says \"holding cell b\" and is pointing left.",
+            "address": "",
+            "id": "poll-content-1",
+            "answer1": "holding cell b",
+            "answer2": "lab"
+        },
+        "poll": {
+            "answer1": 7948,
+            "id": "poll-1",
+            "answer2": 6773
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "answer1Location": "2-10",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "You open the classroom door and enter an all too familiar hallway.^1500 Lifeless and empty the hallway now has an eerie silence to it in contrast to it’s usual bustle.^1500 Blue lockers span the sides as various school rally posters hang above them.",
+            "id": "chapter-2-9",
+            "answer1": "continue",
+            "answer2": ""
+        }
+    }
+}

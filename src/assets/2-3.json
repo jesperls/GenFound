@@ -1,0 +1,12 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "text": "^7000",
+            "address": "afterschool_slash.mp4",
+            "answer1Location": "2-4",
+            "id": "chapter-2-3",
+            "answer1": "begin"
+        }
+    }
+}

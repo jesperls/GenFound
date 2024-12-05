@@ -1,0 +1,15 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "2-17",
+            "answer1Location": "2-18",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "You sit down at the principals desk and turn on the PC.^1500 The startup sound startles you.^1500 The pc opens up to the desktop.^1500 It is completely blank except for a file in the center labelled “13:45:32-8/13.MP3”",
+            "id": "chapter-2-16",
+            "answer1": "leave",
+            "answer2": "play the file"
+        }
+    }
+}

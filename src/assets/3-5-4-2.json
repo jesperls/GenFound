@@ -1,0 +1,16 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "answer1Location": "3-4-2",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "You leave the room.^1500 As you make your way out, you hear the machine.^1500 <br><br>“See you soon.^500 Good luck.\"",
+            "address": "",
+            "answer1": "search the gym",
+            "id": "chapter-3-5-4-2",
+            "answer2": ""
+        }
+    }
+}

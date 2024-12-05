@@ -1,0 +1,16 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "answer1Location": "3-24",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "You hear footsteps getting closer and closer as the janitor fumbles the keys,^500 looking for the right one.",
+            "address": "",
+            "answer1": "continue",
+            "id": "chapter-3-23",
+            "answer2": ""
+        }
+    }
+}

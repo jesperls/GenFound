@@ -1,0 +1,15 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "answer1Location": "3-4-2",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "You leave the theater.^1500 You swear you can hear large footsteps echoing from somewhere, but it doesn’t seem to be inside.^1500 Must be the wind.",
+            "id": "chapter-3-5-3-14-1",
+            "answer1": "search the gym",
+            "answer2": ""
+        }
+    }
+}

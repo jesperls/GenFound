@@ -1,0 +1,16 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "answer1Location": "3-19",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "“The school makes too much money for this city,^500 so they decided instead of closing the school,^500 or hiring an investigator,^500 they'd rather pay me more to stay overnight and make sure that everything stays shut.^1500 So as long as all the windows and doors are locked,^500 it has no way of gettin' in.”^1500 The janitor pauses.",
+            "address": "",
+            "answer1": "continue",
+            "id": "chapter-3-18",
+            "answer2": ""
+        }
+    }
+}

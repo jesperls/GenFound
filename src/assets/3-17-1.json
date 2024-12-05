@@ -1,0 +1,16 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "answer1Location": "3-18-1",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "“What are you doing here, son?”^1500<br>\nThe Janitor walks around the corner.^1500<br><br>\n“You seem rattled, come here.^1500 What is the matter?^1500 You aren’t supposed to be here this late.”",
+            "address": "",
+            "answer1": "continue",
+            "id": "chapter-3-17-1",
+            "answer2": ""
+        }
+    }
+}

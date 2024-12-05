@@ -1,0 +1,15 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "answer1Location": "3-13",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "You enter the janitors closet.^1500 Quickly locking the door behind you.^1500 Before you have time to gather your thoughts you hear a voice.",
+            "id": "chapter-3-12-2",
+            "answer1": "continue",
+            "answer2": ""
+        }
+    }
+}

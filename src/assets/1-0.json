@@ -1,0 +1,16 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "1-2",
+            "answer1Location": "1-1",
+            "answer3Location": "",
+            "text": "you wake up to find yourself in a concrete room.^1500 a light fixture swings gently from the ceiling.^1500  you wipe your eyes to see a large metal door with a circular window.^1500  as you get up you notice your arm is connected to a wire in the wall that disconnects as you rise.",
+            "answer3": "",
+            "address": "1-0.png",
+            "id": "chapter-1-0",
+            "answer1": "look through it?",
+            "answer2": "open the door?"
+        }
+    }
+}

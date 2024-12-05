@@ -1,0 +1,16 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "3-5-4-2",
+            "answer1Location": "3-5-2-1",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "You enter the storage room.^1500 A variety of props and assorted mannequins lie before you.^1500 You don’t see an exit,^250 or anything that isn’t paint related,^250 but you see something more^500.^500.^500.",
+            "address": "3-5-1.png",
+            "answer1": "approach",
+            "id": "chapter-3-5-1",
+            "answer2": "leave"
+        }
+    }
+}

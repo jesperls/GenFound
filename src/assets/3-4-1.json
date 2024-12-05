@@ -1,0 +1,16 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "answer1Location": "3-4-2",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "You decide that going for a window is probably your best bet.^1500 You try to pry open one of the windows with your hands, but they seem to have been forced and locked shut.^1500 The window panes themselves are too small to squeeze through.",
+            "address": "",
+            "answer1": "search the gym",
+            "id": "chapter-3-4-1",
+            "answer2": ""
+        }
+    }
+}

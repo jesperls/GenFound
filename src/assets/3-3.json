@@ -1,0 +1,16 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "3-4-2",
+            "answer1Location": "3-4-1",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "You find yourself in the school gym.^1500<br><br>\nYou need to find a way out.",
+            "address": "",
+            "answer1": "try the window",
+            "id": "chapter-3-3",
+            "answer2": "search the gym"
+        }
+    }
+}

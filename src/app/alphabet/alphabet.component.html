@@ -1,0 +1,47 @@
+<div class="container">
+  <div class="inputs">
+    <textarea
+      #textArea
+      [(ngModel)]="text"
+      (ngModelChange)="transformToUppercase($event)"
+    ></textarea>
+    <pre class="symbols" #symbols>{{ text }}</pre>
+  </div>
+  <div class="footer">
+    <div class="row">
+      <button (click)="clearText()" class="no-symbols">CLEAR</button>
+      <button (click)="downloadImage()" class="no-symbols">DOWNLOAD</button>
+    </div>
+    <div class="keyboard">
+      <div class="row">
+        <button
+          *ngFor="let char of 'QWERTYUIOP'.split('')"
+          (click)="addCharacter(char)"
+        >
+          {{ char }}
+        </button>
+      </div>
+      <div class="row">
+        <button
+          *ngFor="let char of 'ASDFGHJKL'.split('')"
+          (click)="addCharacter(char)"
+        >
+          {{ char }}
+        </button>
+      </div>
+      <div class="row">
+        <button
+          *ngFor="let char of 'ZXCVBNM'.split('')"
+          (click)="addCharacter(char)"
+        >
+          {{ char }}
+        </button>
+      </div>
+      <div class="row">
+        <button (click)="deleteCharacter()" class="no-symbols">DELETE</button>
+        <button (click)="addCharacter(' ')" class="no-symbols">SPACE</button>
+        <button (click)="addNewLine()" class="no-symbols">NEW LINE</button>
+      </div>
+    </div>
+  </div>
+</div>

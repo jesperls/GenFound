@@ -1,0 +1,97 @@
+/* Text area styles */
+textarea {
+  font-family: "VCR OSD Mono", monospace;
+  font-size: 24px;
+  font-weight: bold;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: black;
+  color: red;
+  border: 2px solid red;
+  text-align: center;
+  user-select: contain;
+  resize: none;
+  overflow: hidden;
+}
+
+/* Symbol styles */
+.no-symbols {
+  font-family: "VCR OSD Mono", monospace;
+  user-select: contain;
+}
+
+.symbols {
+  font-family: "Founders";
+  text-align: center;
+  line-height: 1.5;
+  user-select: contain;
+  background-color: black;
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* Keyboard styles */
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer {
+  margin-top: auto;
+  padding-bottom: 50vh;
+  flex-shrink: 0;
+}
+
+/* Button styles */
+button {
+  font-family: "Founders";
+  font-size: 24px;
+  margin: 5px;
+  padding: 10px;
+  background-color: black;
+  color: red;
+  border: 2px solid red;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: red;
+  color: black;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .keyboard .row {
+    display: flex;
+  }
+  .keyboard .row button {
+    flex: 1 1 auto;
+    margin: 2px;
+    padding: 5px;
+    font-size: calc((100vw - 40px) / 10 * 0.6);
+  }
+  .footer {
+    padding-bottom: 20vh;
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "answer1Location": "poll-3",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "You hear a clicking screech coming from the end of the hallway.^1500 The janitor turns around to find the source of the noise.^1500 You see his expression change from that of subtle confidence,^500 to fear.^1500 <br><br>“Is it^500.^500.^500.^1000 bigger?\"^3000^media",
+            "address": "",
+            "answer1": "continue",
+            "id": "chapter-3-24",
+            "answer2": ""
+        }
+    }
+}

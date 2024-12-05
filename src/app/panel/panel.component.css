@@ -1,0 +1,75 @@
+/* Media styles */
+img,
+video {
+  max-width: 30%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+
+/* Button styles */
+button {
+  background-color: black;
+  color: red;
+  border: 2px solid red;
+  font-family: "VCR OSD Mono", monospace;
+  padding: 15px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+button:hover {
+  background-color: red;
+  color: black;
+}
+
+/* Text styles */
+p {
+  font-family: "VCR OSD Mono", monospace;
+  margin: 15px 0;
+  font-size: 1.5em;
+  text-align: center;
+  user-select: text;
+}
+
+div {
+  padding: 15px;
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .button-container {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+  }
+
+  .responsive-media {
+    max-height: 30%;
+    max-width: 80%;
+    width: auto;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  div {
+    padding: 5px;
+  }
+}
