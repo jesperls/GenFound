@@ -30,6 +30,23 @@ export class PanelComponent implements OnInit, OnChanges {
     return text.replace(/\^\d+|\^media/g, '').toUpperCase();
   }
 
+  getMediaType(address: string): string {
+    const extension = address.split('.').pop()?.toLowerCase();
+    switch (extension) {
+      case 'png':
+      case 'jpg':
+      case 'jpeg':
+        return 'image';
+      case 'mp4':
+        return 'video';
+      case 'mp3':
+      case 'wav':
+        return 'audio';
+      default:
+        return 'unknown';
+    }
+  }
+
   loadChapter(location: string) {
     if (location) {
       if (!this.isGoingBack && this.chapterLocation !== location) {

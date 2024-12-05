@@ -1,74 +1,79 @@
+<ng-template #mediaDisplay let-address>
+  <ng-container [ngSwitch]="getMediaType(address)">
+    <img
+      *ngSwitchCase="'image'"
+      class="responsive-media"
+      [src]="'/assets/images/' + address"
+      alt="Media Image"
+    />
+    <video
+      *ngSwitchCase="'video'"
+      class="responsive-media"
+      [src]="'/assets/videos/' + address"
+      controls
+      autoplay
+    ></video>
+    <audio
+      *ngSwitchCase="'audio'"
+      [src]="'/assets/sounds/' + address"
+      controls
+    ></audio>
+    <p *ngSwitchDefault>Unsupported media type</p>
+  </ng-container>
+</ng-template>
+
+<ng-template #buttonContainer let-response>
+  <div class="button-container">
+    <div *ngIf="history.length !== 0">
+      <button (click)="goBack()">BACK</button>
+    </div>
+    <div *ngIf="response.answer1">
+      <button
+        *ngIf="response.answer1Location; else noAction1"
+        (click)="loadChapter(response.answer1Location)"
+      >
+        {{ response.answer1.toUpperCase() }}
+      </button>
+      <ng-template #noAction1>
+        <button>{{ response.answer1.toUpperCase() }}</button>
+      </ng-template>
+    </div>
+    <div *ngIf="response.answer2">
+      <button
+        *ngIf="response.answer2Location; else noAction2"
+        (click)="loadChapter(response.answer2Location)"
+      >
+        {{ response.answer2.toUpperCase() }}
+      </button>
+      <ng-template #noAction2>
+        <button>{{ response.answer2.toUpperCase() }}</button>
+      </ng-template>
+    </div>
+    <div *ngIf="response.answer3">
+      <button
+        *ngIf="response.answer3Location; else noAction3"
+        (click)="loadChapter(response.answer3Location)"
+      >
+        {{ response.answer3.toUpperCase() }}
+      </button>
+      <ng-template #noAction3>
+        <button>{{ response.answer3.toUpperCase() }}</button>
+      </ng-template>
+    </div>
+  </div>
+</ng-template>
+
 <div *ngIf="data">
   <div *ngIf="data.response.chapter">
     <div *ngIf="data.response.chapter.address">
       <ng-container
-        *ngIf="
-          data.response.chapter.address.endsWith('.png');
-          else mediaTemplate
-        "
-      >
-        <img
-          class="responsive-media"
-          [src]="'/assets/images/' + data.response.chapter.address"
-          alt="Chapter Image"
-        />
-      </ng-container>
-      <ng-template #mediaTemplate>
-        <ng-container
-          *ngIf="
-            data.response.chapter.address.endsWith('.mp4');
-            else audioTemplate
-          "
-        >
-          <video
-            class="responsive-media"
-            [src]="'/assets/videos/' + data.response.chapter.address"
-            controls
-            autoplay
-          ></video>
-        </ng-container>
-        <ng-template #audioTemplate>
-          <audio
-            [src]="'/assets/sounds/' + data.response.chapter.address"
-            controls
-          ></audio>
-        </ng-template>
-      </ng-template>
+        *ngTemplateOutlet="mediaDisplay; context: { $implicit: data.response.chapter.address }"
+      ></ng-container>
     </div>
     <div *ngIf="data.response.chapter.metadata">
       <ng-container
-        *ngIf="
-          data.response.chapter.metadata.endsWith('.png');
-          else mediaTemplate
-        "
-      >
-        <img
-          class="responsive-media"
-          [src]="'/assets/images/' + data.response.chapter.metadata"
-          alt="Chapter Image"
-        />
-      </ng-container>
-      <ng-template #mediaTemplate>
-        <ng-container
-          *ngIf="
-            data.response.chapter.metadata.endsWith('.mp4');
-            else audioTemplate
-          "
-        >
-          <video
-            class="responsive-media"
-            [src]="'/assets/videos/' + data.response.chapter.metadata"
-            controls
-            autoplay
-          ></video>
-        </ng-container>
-        <ng-template #audioTemplate>
-          <audio
-            [src]="'/assets/sounds/' + data.response.chapter.metadata"
-            controls
-          ></audio>
-        </ng-template>
-      </ng-template>
+        *ngTemplateOutlet="mediaDisplay; context: { $implicit: data.response.chapter.metadata }"
+      ></ng-container>
     </div>
     <div
       *ngFor="
@@ -79,62 +84,15 @@
     >
       <p [innerHTML]="part">{{ part }}</p>
     </div>
-    <div class="button-container">
-      <div *ngIf="history.length !== 0">
-        <button (click)="goBack()">BACK</button>
-      </div>
-      <div *ngIf="data.response.chapter.answer1">
-        <button (click)="loadChapter(data.response.chapter.answer1Location)">
-          {{ data.response.chapter.answer1.toUpperCase() }}
-        </button>
-      </div>
-      <div *ngIf="data.response.chapter.answer2">
-        <button (click)="loadChapter(data.response.chapter.answer2Location)">
-          {{ data.response.chapter.answer2.toUpperCase() }}
-        </button>
-      </div>
-      <div *ngIf="data.response.chapter.answer3">
-        <button (click)="loadChapter(data.response.chapter.answer3Location)">
-          {{ data.response.chapter.answer3.toUpperCase() }}
-        </button>
-      </div>
-    </div>
+    <ng-container
+      *ngTemplateOutlet="buttonContainer; context: { $implicit: data.response.chapter }"
+    ></ng-container>
   </div>
   <div *ngIf="data.response.content">
     <div *ngIf="data.response.content.address">
       <ng-container
-        *ngIf="
-          data.response.content.address.endsWith('.png');
-          else mediaTemplate
-        "
-      >
-        <img
-          class="responsive-media"
-          [src]="'/assets/images/' + data.response.content.address"
-          alt="Chapter Image"
-        />
-      </ng-container>
-      <ng-template #mediaTemplate>
-        <ng-container
-          *ngIf="
-            data.response.content.address.endsWith('.mp4');
-            else audioTemplate
-          "
-        >
-          <video
-            class="responsive-media"
-            [src]="'/assets/videos/' + data.response.content.address"
-            controls
-            autoplay
-          ></video>
-        </ng-container>
-        <ng-template #audioTemplate>
-          <audio
-            [src]="'/assets/sounds/' + data.response.content.address"
-            controls
-          ></audio>
-        </ng-template>
-      </ng-template>
+        *ngTemplateOutlet="mediaDisplay; context: { $implicit: data.response.content.address }"
+      ></ng-container>
     </div>
     <div
       *ngFor="
@@ -146,19 +104,8 @@
       <p [innerHTML]="part"></p>
     </div>
     <p>CHAPTER END</p>
-    <div class="button-container">
-      <div *ngIf="history.length !== 0">
-        <button (click)="goBack()">BACK</button>
-      </div>
-      <div *ngIf="data.response.content.answer1">
-        <button>{{ data.response.content.answer1.toUpperCase() }}</button>
-      </div>
-      <div *ngIf="data.response.content.answer2">
-        <button>{{ data.response.content.answer2.toUpperCase() }}</button>
-      </div>
-      <div *ngIf="data.response.content.answer3">
-        <button>{{ data.response.content.answer3.toUpperCase() }}</button>
-      </div>
-    </div>
+    <ng-container
+      *ngTemplateOutlet="buttonContainer; context: { $implicit: data.response.content }"
+    ></ng-container>
   </div>
 </div>
