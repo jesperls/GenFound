@@ -53,11 +53,7 @@ export class PanelComponent implements OnInit, OnChanges {
         this.history.push(this.chapterLocation);
       }
       this.isGoingBack = false;
-      const headers = new HttpHeaders({
-        'Cache-Control': 'public, max-age=3600',
-        'Pragma': 'cache'
-      });
-      this.http.get<Data>(`/assets/locations/${location}.json`, { headers }).subscribe(response => {
+      this.http.get<Data>(`/assets/locations/${location}.json`).subscribe(response => {
         this.data = response;
         this.chapterLocation = location;
       });
