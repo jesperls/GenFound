@@ -40,7 +40,7 @@ export class PanelComponent implements OnInit, OnChanges {
         'Cache-Control': 'public, max-age=3600',
         'Pragma': 'cache'
       });
-      this.http.get<Data>(`/assets/${location}.json`, { headers }).subscribe(response => {
+      this.http.get<Data>(`/assets/locations/${location}.json`, { headers }).subscribe(response => {
         this.data = response;
         this.chapterLocation = location;
       });

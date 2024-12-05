@@ -9,7 +9,7 @@
       >
         <img
           class="responsive-media"
-          [src]="'/assets/' + data.response.chapter.address"
+          [src]="'/assets/images/' + data.response.chapter.address"
           alt="Chapter Image"
         />
       </ng-container>
@@ -22,14 +22,14 @@
         >
           <video
             class="responsive-media"
-            [src]="'/assets/' + data.response.chapter.address"
+            [src]="'/assets/videos/' + data.response.chapter.address"
             controls
             autoplay
           ></video>
         </ng-container>
         <ng-template #audioTemplate>
           <audio
-            [src]="'/assets/' + data.response.chapter.address"
+            [src]="'/assets/sounds/' + data.response.chapter.address"
             controls
           ></audio>
         </ng-template>
@@ -44,7 +44,7 @@
       >
         <img
           class="responsive-media"
-          [src]="'/assets/' + data.response.chapter.metadata"
+          [src]="'/assets/images/' + data.response.chapter.metadata"
           alt="Chapter Image"
         />
       </ng-container>
@@ -57,14 +57,14 @@
         >
           <video
             class="responsive-media"
-            [src]="'/assets/' + data.response.chapter.metadata"
+            [src]="'/assets/videos/' + data.response.chapter.metadata"
             controls
             autoplay
           ></video>
         </ng-container>
         <ng-template #audioTemplate>
           <audio
-            [src]="'/assets/' + data.response.chapter.metadata"
+            [src]="'/assets/sounds/' + data.response.chapter.metadata"
             controls
           ></audio>
         </ng-template>
@@ -110,7 +110,7 @@
       >
         <img
           class="responsive-media"
-          [src]="'/assets/' + data.response.content.address"
+          [src]="'/assets/images/' + data.response.content.address"
           alt="Chapter Image"
         />
       </ng-container>
@@ -123,14 +123,14 @@
         >
           <video
             class="responsive-media"
-            [src]="'/assets/' + data.response.content.address"
+            [src]="'/assets/videos/' + data.response.content.address"
             controls
             autoplay
           ></video>
         </ng-container>
         <ng-template #audioTemplate>
           <audio
-            [src]="'/assets/' + data.response.content.address"
+            [src]="'/assets/sounds/' + data.response.content.address"
             controls
           ></audio>
         </ng-template>
