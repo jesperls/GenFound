@@ -1,0 +1,16 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "4-17-2",
+            "answer1Location": "4-17-1",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "You walk to the computer room.^1500 You cup your hands around your eyes and press up against the window to see inside.^1500 Rows of desktop computers on long tables span the room.^1500 You step back and glance at the door.^1500 Typically it’s locked, but it looks like the handle had been kicked off.",
+            "address": "4-computers.png",
+            "answer1": "try the door",
+            "id": "chapter-4-16-3",
+            "answer2": "leave"
+        }
+    }
+}

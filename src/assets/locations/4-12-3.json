@@ -1,0 +1,16 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "answer1Location": "4-12-2",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "You walk over to the teacher’s desk.^1500 Your teacher’s bag is still there, she did have to deal with a lot of rowdy students that day, so it makes sense to have gotten out as fast as she could.^1500 There isn't anything else of note besides a photo of her turtle.",
+            "address": "",
+            "answer1": "leave",
+            "id": "chapter-4-12-3",
+            "answer2": ""
+        }
+    }
+}

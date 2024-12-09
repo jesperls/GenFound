@@ -1,0 +1,15 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "answer1Location": "4-7-1",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "You sprint to the blocked exit door and quietly begin to push and shove the equipment away.^1500 You hear loud footsteps grow closer from the hall outside.^1500 Your pace quickens.^1500 As you frantically remove the equipment from the blockade,^500 the footsteps from the hall match the pulse in your ears.^1500 You hear the gym door slowly creek open.",
+            "answer1": "continue",
+            "id": "chapter-4-6-1",
+            "answer2": ""
+        }
+    }
+}

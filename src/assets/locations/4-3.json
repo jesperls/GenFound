@@ -1,0 +1,16 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "answer1Location": "4-5",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "You stumble to your feet and run down the hallway away from the figure. ^1500Looking for any kind of exit. ^1500As you sprint through the hallways, your eye catches the gym door slightly ajar. ^1500You run inside, hoping for a place to escape",
+            "address": "",
+            "answer1": "continue",
+            "id": "chapter-4-3",
+            "answer2": ""
+        }
+    }
+}

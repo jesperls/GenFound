@@ -1,0 +1,15 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "4-16-2",
+            "answer1Location": "4-16-1",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "You make your way to the bathroom.^1500 You walk in and look around.^1500 Looks about what you would expect.^1500 Just the same old school bathroom just... darker.^1500 You glide your hand along the sinks, they’re all a little sticky.^1500 Ew.",
+            "answer1": "look into the mirror",
+            "id": "chapter-4-15-1",
+            "answer2": "leave"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "4-12-2",
+            "answer1Location": "4-12-1",
+            "answer3Location": "4-12-3",
+            "answer3": "teachers desk",
+            "text": "You get up from your desk, taking your bag with you.^1500 You look around the classroom, only illuminated by the moonlight.^1500 It's unsettling, seeing it this quiet for once.",
+            "address": "",
+            "answer1": "look out the window",
+            "id": "chapter-4-11-1",
+            "answer2": "leave"
+        }
+    }
+}

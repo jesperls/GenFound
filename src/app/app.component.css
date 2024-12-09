@@ -33,6 +33,13 @@ div {
   gap: 10px;
 }
 
+.main-header,
+.sub-header {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
 /* Responsive styles */
 @media (max-width: 768px) {
   body {
@@ -52,4 +59,10 @@ div {
 
 app-alphabet {
   width: 100%;
+}
+
+.obsidian-iframe {
+  width: 100%;
+  height: 100vh;
+  border: none;
 }

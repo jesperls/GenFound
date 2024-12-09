@@ -1,0 +1,16 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "answer1Location": "4-9",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "",
+            "address": "game-over.mp4",
+            "answer1": "continue",
+            "id": "chapter-4-8",
+            "answer2": ""
+        }
+    }
+}

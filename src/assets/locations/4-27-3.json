@@ -1,0 +1,13 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "4-27-1",
+            "text": "You continue to stay in the locker.^1500 A photo of someone's sweetheart stares back at you.^1500 The footsteps draw closer.",
+            "answer1Location": "4-27-4",
+            "id": "chapter-4-27-3",
+            "answer1": "hide",
+            "answer2": "run"
+        }
+    }
+}

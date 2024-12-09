@@ -1,0 +1,16 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "4-25",
+            "answer1Location": "4-15-1",
+            "answer3Location": "4-16-3",
+            "answer3": "computer room",
+            "text": "The hallway is dark, only illuminated by the small amount of moonlight coming through the door windows, and the red <span class=\"white\">EXIT</span> sign at the end of the hallway.^1500 You should go to the exit and find your way home.",
+            "address": "",
+            "answer1": "bathroom",
+            "id": "chapter-4-14",
+            "answer2": "exit"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "4-34-2",
+            "answer1Location": "4-34-1",
+            "answer3Location": "4-34-3",
+            "answer3": "janitor is dead",
+            "text": "Your teacher looks at you, taking a second to gather her thoughts before speaking.^1500<br><br> “Ben!^750 Where’s the fire?^750 You shouldn’t be here this late...^1500 Are you okay?^1500 Let’s get you home.^1500 Follow me honey.\"",
+            "answer1": "what time is it",
+            "id": "chapter-4-33",
+            "answer2": "where are we going"
+        }
+    }
+}

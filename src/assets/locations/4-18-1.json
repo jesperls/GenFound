@@ -1,0 +1,13 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "4-18-2",
+            "text": "You try the door again with a little more force.^1500 It shifts^750, you hear a snap,^750 but it stands its ground.^1500 What were you expecting?^1500 You should <span class=\"white\">LEAVE</span>.",
+            "answer1": "try the door",
+            "answer1Location": "4-19-1",
+            "id": "chapter-4-18-1",
+            "answer2": "leave"
+        }
+    }
+}

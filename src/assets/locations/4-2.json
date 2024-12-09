@@ -1,0 +1,16 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "answer1Location": "4-3",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "^8000You watch the janitor fall to the floor.^1500 His head tilts away from his concaved neck.",
+            "address": "4-janitor.mp4",
+            "answer1": "run",
+            "id": "chapter-4-2",
+            "answer2": ""
+        }
+    }
+}

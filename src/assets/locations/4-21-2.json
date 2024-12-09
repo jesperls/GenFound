@@ -1,0 +1,11 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "text": "This room is boring.^1500 Who uses computers anyway?^1500 Nerds do.",
+            "answer1": "continue",
+            "answer1Location": "4-14",
+            "id": "chapter-4-21-2"
+        }
+    }
+}

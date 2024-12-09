@@ -1,0 +1,15 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "answer1Location": "4-7-2",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "You run under the bleachers,^500 positioning yourself on the floor in a way in which you can only hope you aren’t able to be seen.^1500 You watch through the cracks of the steps as you see the figure walk closer,^500 until his feet stop directly in front of you.",
+            "id": "chapter-4-6-2",
+            "answer1": "continue",
+            "answer2": ""
+        }
+    }
+}

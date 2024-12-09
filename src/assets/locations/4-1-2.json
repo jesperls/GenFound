@@ -1,0 +1,15 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "answer1Location": "4-2",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "You can only watch as it approaches the janitor.",
+            "id": "chapter-4-1-2",
+            "answer1": "continue",
+            "answer2": ""
+        }
+    }
+}

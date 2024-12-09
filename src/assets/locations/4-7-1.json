@@ -1,0 +1,15 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "answer1Location": "4-8",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "You try to push through the crack in the door,^500 only to be pulled back.^1500 Your body turns in his hands, and you come face to face with the hollow mask.^1500 You feel a pressure around your neck that only grows.^1500 <br> You hear a crack,^500 and are only barely able to feel your neck caving in before your vision goes black.",
+            "answer1": "continue",
+            "id": "chapter-4-7-1",
+            "answer2": ""
+        }
+    }
+}

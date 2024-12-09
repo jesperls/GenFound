@@ -1,0 +1,13 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "4-27-1",
+            "text": "You’re still in the locker.^1500 You hope that smell is just a rotten sandwich.^1500 The footsteps pass you.",
+            "answer1Location": "4-27-5",
+            "id": "chapter-4-27-4",
+            "answer1": "hide",
+            "answer2": "run"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "text": "You leave the classroom.^1500 As you walk away, your headache fades.^1500 As you exit the room you stop and look around.^1500 You look back at the classroom.^1500 The door is gone.",
+            "address": "",
+            "answer1": "keep walking",
+            "answer1Location": "4-32",
+            "id": "chapter-4-31-4"
+        }
+    }
+}

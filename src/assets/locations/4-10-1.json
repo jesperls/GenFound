@@ -1,0 +1,16 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "4-11-2",
+            "answer1Location": "4-11-1",
+            "answer3Location": "",
+            "answer3": "",
+            "text": "You look around and spot the moonlight seeping in from the window.^1500 You’re known for sleeping in class, but you’ve never slept in this long.^1500 Usually the janitor would at least wake you up, but he hasn’t gotten to this room, yet it seems.^1500 Wasn’t the first time that a student has been left well past the end of the day.^1500 Not a problem.",
+            "address": "",
+            "answer1": "get up",
+            "id": "chapter-4-10-1",
+            "answer2": "think"
+        }
+    }
+}

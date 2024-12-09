@@ -1,0 +1,12 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "text": "You walk inside the classroom.^1500 You look around the room.^1500 Desks are toppled over, chairs are on the ceiling, books are suspended in the air, posters are illegible.^1500 What’s going on?^1500 Your head starts to hurt.",
+            "address": "4-classroom.png",
+            "answer1": "leave",
+            "answer1Location": "4-31-4",
+            "id": "chapter-4-30-4"
+        }
+    }
+}

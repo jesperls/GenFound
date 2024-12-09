@@ -1,0 +1,11 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "text": "You leave.^1500 Hopefully nobody saw you do that.",
+            "answer1Location": "4-14",
+            "id": "chapter-4-19-2",
+            "answer1": "continue"
+        }
+    }
+}

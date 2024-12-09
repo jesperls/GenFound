@@ -1,0 +1,13 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "4-30-1",
+            "text": "You turn right and keep running.^1500 More Lockers, more doors.",
+            "answer1": "left",
+            "answer1Location": "4-30-2",
+            "id": "chapter-4-29-1",
+            "answer2": "right"
+        }
+    }
+}

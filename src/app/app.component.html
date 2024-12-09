@@ -1,12 +1,30 @@
 <router-outlet></router-outlet>
-<div class="button-container">
-  <button (click)="selectChapter('1-0')">Load Chapter 1</button>
-  <button (click)="selectChapter('2-0-0')">Load Chapter 2</button>
-  <button (click)="selectChapter('3-0-2')">Load Chapter 3</button>
-  <button (click)="selectAlphabet()">Alphabet</button>
+
+<div class="main-header">
+  <button (click)="selectMain('Chapters')">Chapters</button>
+  <button (click)="selectMain('Obsidian')">Flowcharts</button>
+  <button (click)="selectMain('Alphabet')">Alphabet</button>
 </div>
+
+<div class="sub-header" *ngIf="selectedMain === 'Chapters'">
+  <button (click)="selectChapter('1-0')">Chapter 1</button>
+  <button (click)="selectChapter('2-0-0')">Chapter 2</button>
+  <button (click)="selectChapter('3-0-2')">Chapter 3</button>
+  <button (click)="selectChapter('4-0-2')">Chapter 4</button>
+</div>
+
+<div class="sub-header" *ngIf="selectedMain === 'Obsidian'">
+  <button (click)="selectChapter('1')">Chapter 1</button>
+  <button (click)="selectChapter('2')">Chapter 2</button>
+  <button (click)="selectChapter('3')">Chapter 3</button>
+  <button (click)="selectChapter('4')">Chapter 4</button>
+</div>
+
 <app-panel
   [chapterLocation]="selectedChapter"
-  *ngIf="selectedChapter"
+  *ngIf="selectedChapter && selectedMain === 'Chapters'"
 ></app-panel>
+
 <app-alphabet *ngIf="showAlphabet"></app-alphabet>
+
+<iframe *ngIf="obsidianUrl" [src]="obsidianUrl" class="obsidian-iframe"></iframe>

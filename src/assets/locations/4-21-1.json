@@ -1,0 +1,13 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "4-22-2",
+            "text": "You approach the lone computer.^1500 It’s not as dusty as the others.^1500 You can barely see any dust at all.^1500 Piles of papers and books surround it.^1500 You glance at the papers and can’t even begin to understand what’s on them.^1500 You feel warmth as you pass your hand by the screen.^1500 You go to touch the monitor and flinch back.^1500 It’s hot.^1500 Someone was just here.",
+            "answer1Location": "4-22-1",
+            "id": "chapter-4-21-1",
+            "answer1": "turn it on",
+            "answer2": "leave"
+        }
+    }
+}

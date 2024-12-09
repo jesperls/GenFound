@@ -1,0 +1,11 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "text": "She pauses for a second.^1500<br><br> “Ah!^750 This way.^1500 Sorry, this place feels like a maze sometimes.^1500 I’m taking you to my car outside.^1500 I’ll drive you home if you don’t want to walk!”",
+            "answer1Location": "4-36-1",
+            "id": "chapter-4-35-2",
+            "answer1": "janitor is dead"
+        }
+    }
+}

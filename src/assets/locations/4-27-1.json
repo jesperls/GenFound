@@ -1,0 +1,13 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "4-28-1",
+            "text": "You begin to run as fast as you can down the hallway.^1500 You hear footsteps behind you grow faster and faster.^1500 You come to an intersection of hallways.",
+            "answer1": "left",
+            "answer1Location": "4-28-2",
+            "id": "chapter-4-27-1",
+            "answer2": "right"
+        }
+    }
+}
