@@ -1,5 +1,6 @@
 import { Component, ElementRef, ViewChild, AfterViewInit } from '@angular/core';
 import html2canvas from 'html2canvas';
+import { AnalyticsService } from '../services';
 
 @Component({
   selector: 'app-alphabet',
@@ -11,6 +12,8 @@ export class AlphabetComponent implements AfterViewInit {
 
   @ViewChild('textArea') textArea!: ElementRef;
   @ViewChild('symbols') symbols!: ElementRef;
+
+  constructor(private analyticsService: AnalyticsService) {}
 
   ngAfterViewInit() {
     this.adjustTextAreaHeight();
@@ -47,6 +50,7 @@ export class AlphabetComponent implements AfterViewInit {
       link.download = 'text.png';
       link.href = canvas.toDataURL();
       link.click();
+      this.analyticsService.trackEvent('IMAGE_DOWNLOADED', 'Image downloaded', 'Alphabet');
     });
   }
 

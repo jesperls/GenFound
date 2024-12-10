@@ -1,6 +1,7 @@
 import { Component, OnInit, OnChanges, Input, SimpleChanges } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import { Data } from './panel.interface';
+import { AnalyticsService } from '../services';
 
 @Component({
   selector: 'app-panel',
@@ -13,7 +14,7 @@ export class PanelComponent implements OnInit, OnChanges {
   history: string[] = [];
   isGoingBack: boolean = false;
 
-  constructor(private http: HttpClient) {}
+  constructor(private analyticsService: AnalyticsService, private http: HttpClient) {}
 
   ngOnInit() {
     this.loadChapter(this.chapterLocation);
@@ -51,6 +52,7 @@ export class PanelComponent implements OnInit, OnChanges {
     if (location) {
       if (!this.isGoingBack && this.chapterLocation !== location) {
         this.history.push(this.chapterLocation);
+        this.analyticsService.trackEvent('CHAPTER_LOADED', `Chapter ${location} loaded`, 'Chapter');
       }
       this.isGoingBack = false;
       this.http.get<Data>(`/assets/locations/${location}.json`).subscribe(response => {
