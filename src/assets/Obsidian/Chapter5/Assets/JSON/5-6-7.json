@@ -1,0 +1,14 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "answer1Location": "5-6-7-0",
+            "text": "^1000 ^media ^2000 You open the locker and jump back as what's inside begins to shift and fall out. ^1500You stare at your history teacher stuffed in the locker. ^1500You can’t stomach looking at her any longer and shut the locker closed with a squish. ^1500You’ve had enough of this monster. ^1500You want to leave. ^1500You don’t care if the monster gets in your way.",
+            "address": "https://foundergame-assets.s3.us-east-2.amazonaws.com/5-locker.png",
+            "answer1": "exit",
+            "id": "chapter-5-6-7",
+            "answer2": ""
+        }
+    }
+}

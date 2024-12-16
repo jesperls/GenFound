@@ -1,0 +1,11 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "text": "You stop for a moment and look around. ^1500You barely recognize anything around you. ^1500You spot a class you recognize. ^1500Your 8th period class. ^1500You know exactly where the exit is from here. ^1500You sprint down the halls through the familiar route and slow to a walk as you approach the exit.",
+            "answer1Location": "5-6-8",
+            "id": "chapter-5-6-7-1",
+            "answer1": "exit"
+        }
+    }
+}

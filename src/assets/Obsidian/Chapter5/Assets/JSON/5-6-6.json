@@ -1,0 +1,11 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "text": "You run to the lockers and look for an open one. ^1500As your eyes scan the surrounding lockers, you spot a locker back the way you came, slightly ajar. ^1500You make a run for it. ^1500As you approach your locker, you realize it's yours.",
+            "answer1": "open the locker",
+            "answer1Location": "5-6-7",
+            "id": "chapter-5-6-6"
+        }
+    }
+}

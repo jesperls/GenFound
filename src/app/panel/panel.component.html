@@ -1,3 +1,6 @@
+<div>
+  <p>{{chapterLocation}}</p>
+</div>
 <ng-template #mediaDisplay let-address>
   <ng-container [ngSwitch]="getMediaType(address)">
     <img
@@ -24,13 +27,13 @@
 
 <ng-template #buttonContainer let-response>
   <div class="button-container">
-    <div *ngIf="history.length !== 0">
+    <div *ngIf="hasHistory">
       <button (click)="goBack()">BACK</button>
     </div>
     <div *ngIf="response.answer1">
       <button
         *ngIf="response.answer1Location; else noAction1"
-        (click)="loadChapter(response.answer1Location)"
+        (click)="loadChapter(response.answer1Location, true)"
       >
         {{ response.answer1.toUpperCase() }}
       </button>
@@ -41,7 +44,7 @@
     <div *ngIf="response.answer2">
       <button
         *ngIf="response.answer2Location; else noAction2"
-        (click)="loadChapter(response.answer2Location)"
+        (click)="loadChapter(response.answer2Location, true)"
       >
         {{ response.answer2.toUpperCase() }}
       </button>
@@ -52,7 +55,7 @@
     <div *ngIf="response.answer3">
       <button
         *ngIf="response.answer3Location; else noAction3"
-        (click)="loadChapter(response.answer3Location)"
+        (click)="loadChapter(response.answer3Location, true)"
       >
         {{ response.answer3.toUpperCase() }}
       </button>
@@ -102,8 +105,9 @@
       "
     >
       <p [innerHTML]="part"></p>
+      <br />
+      <p>CHAPTER END</p>
     </div>
-    <p>CHAPTER END</p>
     <ng-container
       *ngTemplateOutlet="buttonContainer; context: { $implicit: data.response.content }"
     ></ng-container>

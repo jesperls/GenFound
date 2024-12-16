@@ -1,0 +1,11 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "text": "You slowly inch towards the door, ^500 trying not to call attention to yourself. ^1500 As you slowly slide away, eyes glued to the figure, ^500 you bump into a chair, making a loud squeak.^2000 The figure looks up and you meet eyes. ^1500 You feel unease looking at it. ^1500 You sprint out the door into the hallway.",
+            "answer1": "hide in a locker",
+            "answer1Location": "5-6-6",
+            "id": "chapter-5-6-4-3"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "text": "You continue to explore the library. ^1500 Hoping to find answers.^1000 All you come across is old comic strips and newspapers. ^1500 They hold no value to you, and they aren’t very funny.",
+            "answer1": "leave",
+            "answer1Location": "5-4-2",
+            "id": "chapter-5-4-10",
+            "answer2": ""
+        }
+    }
+}

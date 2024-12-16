@@ -1,0 +1,11 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "text": "You turn around and leave the storage room. ^1500 You wonder what all that stuff could be for.",
+            "answer1": "Continue",
+            "answer1Location": "5-6-4-9",
+            "id": "chapter-5-6-4-5"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "text": "You decide to try again. ^1500You drag the same chair over to get on the same desk. ^1500You make your way up and push one of the ceiling tiles out of the way. ^1500You can barely make out the support beams through the dust. ^1500You try to look a bit harder this time.",
+            "answer1Location": "5-5-5-1",
+            "id": "chapter-5-5-5",
+            "answer1": "climb"
+        }
+    }
+}

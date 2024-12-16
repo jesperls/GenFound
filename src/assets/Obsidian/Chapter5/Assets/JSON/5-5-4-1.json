@@ -1,0 +1,11 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "text": "You climb into the ceiling. ^1500The dust grows thicker as you push yourself up. ^1500As the dust settles... you find yourself back in the entrance of the classroom. ^1500The room is back how you found it.",
+            "answer1": "keep looking",
+            "answer1Location": "5-5-0-1",
+            "id": "chapter-5-5-4-1"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "text": "You turn the corner with confidence. ^1500You can’t help but smile at the thought of leaving the school and getting home safe. ^1500<br><br>You look up at the exit doors.^2000 ^media",
+            "address": "https://foundergame-assets.s3.us-east-2.amazonaws.com/5-shard-new.png",
+            "answer1": "continue",
+            "answer1Location": "5-6-9",
+            "id": "chapter-5-6-8"
+        }
+    }
+}

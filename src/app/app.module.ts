@@ -7,11 +7,13 @@ import { AppComponent } from './app.component';
 import { PanelComponent } from './panel/panel.component';
 import { AlphabetComponent } from './alphabet/alphabet.component';
 import { FormsModule } from '@angular/forms';
+import { ObsidianComponent } from './obsidian/obsidian.component';
+import { HistoryService } from './services/history.service';
 
 @NgModule({
-  declarations: [AppComponent, PanelComponent, AlphabetComponent],
+  declarations: [AppComponent, PanelComponent, AlphabetComponent, ObsidianComponent],
   imports: [FormsModule, BrowserModule, AppRoutingModule, HttpClientModule],
-  providers: [],
+  providers: [HistoryService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

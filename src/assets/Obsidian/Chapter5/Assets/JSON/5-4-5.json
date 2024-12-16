@@ -1,0 +1,13 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "5-4-2",
+            "text": "You walk to the library. ^1500 The door is propped open. ^1500 Usually it’s locked overnight. ^1500 You look inside, but it’s too dark to make out much. ^1500 Is someone inside?",
+            "answer1": "go inside",
+            "answer1Location": "5-4-8",
+            "id": "chapter-5-4-5",
+            "answer2": "leave"
+        }
+    }
+}

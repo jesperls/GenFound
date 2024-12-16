@@ -1,30 +1,35 @@
-import { Component, OnInit, OnChanges, Input, SimpleChanges } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Data } from './panel.interface';
 import { AnalyticsService } from '../services';
+import { ActivatedRoute, Router } from '@angular/router';
+import { HistoryService } from '../services/history.service';
 
 @Component({
   selector: 'app-panel',
   templateUrl: './panel.component.html',
   styleUrls: ['./panel.component.css']
 })
-export class PanelComponent implements OnInit, OnChanges {
-  @Input() chapterLocation: string = '1-0';
+export class PanelComponent implements OnInit {
+  chapterLocation: string = '1-0';
   data!: Data;
-  history: string[] = [];
-  isGoingBack: boolean = false;
 
-  constructor(private analyticsService: AnalyticsService, private http: HttpClient) {}
+  constructor(
+    private analyticsService: AnalyticsService,
+    private http: HttpClient,
+    private route: ActivatedRoute,
+    private router: Router,
+    private historyService: HistoryService
+  ) {}
 
   ngOnInit() {
-    this.loadChapter(this.chapterLocation);
-  }
-
-  ngOnChanges(changes: SimpleChanges) {
-    if (changes['chapterLocation'] && !changes['chapterLocation'].firstChange) {
-      this.loadChapter(this.chapterLocation);
-      this.history = [];
-    }
+    this.route.params.subscribe(params => {
+      const location = params['chapterLocation'];
+      this.chapterLocation = location;
+      if (location) {
+        this.loadChapter(location);
+      }
+    });
   }
 
   getTextWithoutMarkers(text: string): string {
@@ -48,27 +53,32 @@ export class PanelComponent implements OnInit, OnChanges {
     }
   }
 
-  loadChapter(location: string) {
-    if (location) {
-      if (!this.isGoingBack && this.chapterLocation !== location) {
-        this.history.push(this.chapterLocation);
-        this.analyticsService.trackEvent('CHAPTER_LOADED', `Chapter ${location} loaded`, 'Chapter');
-      }
-      this.isGoingBack = false;
-      this.http.get<Data>(`/assets/locations/${location}.json`).subscribe(response => {
-        this.data = response;
-        this.chapterLocation = location;
-      });
+  loadChapter(location: string, buttonClick?: boolean) {
+    if (buttonClick) {
+      this.historyService.add(this.chapterLocation);
     }
+    this.chapterLocation = location;
+    this.analyticsService.trackEvent(
+      'CHAPTER_LOADED',
+      `Chapter ${location} loaded`,
+      'Chapter'
+    );
+    this.http.get<Data>(`/assets/locations/${location}.json`).subscribe(response => {
+      this.data = response;
+      this.router.navigate(['/chapters', location]);
+    });
   }
 
   goBack() {
-    if (this.history.length > 0) {
-      const previousLocation = this.history.pop();
-      if (previousLocation) {
-        this.isGoingBack = true;
-        this.loadChapter(previousLocation);
-      }
+    const previousLocation = this.historyService.pop();
+    if (previousLocation) {
+      this.loadChapter(previousLocation);
+    } else {
+      this.router.navigate(['/chapters', '1-0']);
     }
+  }
+
+  get hasHistory(): boolean {
+    return this.historyService.hasHistory();
   }
 }

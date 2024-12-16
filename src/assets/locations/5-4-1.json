@@ -1,0 +1,11 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "text": "You leave the bathroom. ",
+            "answer1": "continue",
+            "answer1Location": "5-4-0",
+            "id": "chapter-5-4-1"
+        }
+    }
+}

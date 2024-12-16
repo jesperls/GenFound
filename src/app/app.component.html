@@ -1,30 +1,21 @@
-<router-outlet></router-outlet>
-
 <div class="main-header">
   <button (click)="selectMain('Chapters')">Chapters</button>
   <button (click)="selectMain('Obsidian')">Flowcharts</button>
-  <button (click)="selectMain('Alphabet')">Alphabet</button>
+  <button routerLink="/alphabet">Alphabet</button>
 </div>
-
 <div class="sub-header" *ngIf="selectedMain === 'Chapters'">
-  <button (click)="selectChapter('1-0')">Chapter 1</button>
-  <button (click)="selectChapter('2-0-0')">Chapter 2</button>
-  <button (click)="selectChapter('3-0-2')">Chapter 3</button>
-  <button (click)="selectChapter('4-0-2')">Chapter 4</button>
+  <button routerLink="/chapters/1-0" (click)="this.navigate()">Chapter 1</button>
+  <button routerLink="/chapters/2-0-0" (click)="this.navigate()">Chapter 2</button>
+  <button routerLink="/chapters/3-0-2" (click)="this.navigate()">Chapter 3</button>
+  <button routerLink="/chapters/4-0-2" (click)="this.navigate()">Chapter 4</button>
+  <button routerLink="/chapters/5-0-1" (click)="this.navigate()">Chapter 5</button>
 </div>
 
 <div class="sub-header" *ngIf="selectedMain === 'Obsidian'">
-  <button (click)="selectChapter('1')">Chapter 1</button>
-  <button (click)="selectChapter('2')">Chapter 2</button>
-  <button (click)="selectChapter('3')">Chapter 3</button>
-  <button (click)="selectChapter('4')">Chapter 4</button>
+  <button routerLink="/obsidian/1" (click)="this.navigate()">Flowchart 1</button>
+  <button routerLink="/obsidian/2" (click)="this.navigate()">Flowchart 2</button>
+  <button routerLink="/obsidian/3" (click)="this.navigate()">Flowchart 3</button>
+  <button routerLink="/obsidian/4" (click)="this.navigate()">Flowchart 4</button>
+  <button routerLink="/obsidian/5" (click)="this.navigate()">Flowchart 5</button>
 </div>
-
-<app-panel
-  [chapterLocation]="selectedChapter"
-  *ngIf="selectedChapter && selectedMain === 'Chapters'"
-></app-panel>
-
-<app-alphabet *ngIf="showAlphabet"></app-alphabet>
-
-<iframe *ngIf="obsidianUrl" [src]="obsidianUrl" class="obsidian-iframe"></iframe>
+<router-outlet></router-outlet>

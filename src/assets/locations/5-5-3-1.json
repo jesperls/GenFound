@@ -1,0 +1,11 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "text": "You try to pry open a window. ^1500The teacher was right. ^1500You’re able to get one slightly open, but it stops due to the janitor’s work. ^1500Sadly, the created gap isn’t big enough for you to squeeze through, so you try another window. ^1500Same problem with this one. You make your way through the windows until you get to the very last one. ^1500Before you can try the last one, you hear a crash from the first window.",
+            "answer1": "continue",
+            "answer1Location": "5-5-3-2",
+            "id": "chapter-5-5-3-1"
+        }
+    }
+}

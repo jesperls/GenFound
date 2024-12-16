@@ -1,0 +1,11 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "text": "You decide to try the one place you haven’t thought to look. ^1500You drag a chair over to get on a desk. ^1500You make your way up and push one of the ceiling tiles out of the way. ^1500You can barely make out the support beams through the dust.",
+            "answer1Location": "5-5-4-1",
+            "id": "chapter-5-5-4",
+            "answer1": "climb"
+        }
+    }
+}

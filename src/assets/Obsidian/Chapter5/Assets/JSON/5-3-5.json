@@ -1,0 +1,11 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "text": "You don’t want to be in this place any more than you already have to. ^1500You start to worry about where your parents must think you are. ^1500It’s time to leave.",
+            "answer1": "continue",
+            "answer1Location": "5-3-6",
+            "id": "chapter-5-3-5"
+        }
+    }
+}

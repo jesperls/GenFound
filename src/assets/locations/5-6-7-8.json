@@ -1,0 +1,11 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "text": "You leave quickly. ^1500 You don’t want to know what’s going on in there. ^1500 You speed down the hall and turn the corner.",
+            "answer1": "Continue",
+            "answer1Location": "5-6-7-1",
+            "id": "chapter-5-6-7-8"
+        }
+    }
+}

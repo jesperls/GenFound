@@ -1,0 +1,13 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "",
+            "text": "You leave the library. ^1000 Its too dark in here. ^1000 It’s creeping you out.",
+            "answer1": "continue",
+            "answer1Location": "5-4-0",
+            "id": "chapter-5-4-2",
+            "answer2": ""
+        }
+    }
+}

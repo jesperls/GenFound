@@ -1,0 +1,13 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "5-6-7-3",
+            "text": "As you keep walking, the blood on the floor continues to grow, ^500 eventually leading to a solid line in the center of the hallway. ^1500 You walk to the side to not get your shoes dirty.",
+            "answer1": "Follow The Line",
+            "answer1Location": "5-6-7-6",
+            "id": "chapter-5-6-7-4",
+            "answer2": "Turn Around"
+        }
+    }
+}

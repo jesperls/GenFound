@@ -29,14 +29,19 @@ button:hover {
 p {
   font-family: "VCR OSD Mono", monospace;
   margin: 15px 0;
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-align: center;
   user-select: text;
+  width: 70%;
+  margin: 0 auto;
 }
 
 div {
   padding: 15px;
   text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .button-container {
@@ -67,6 +72,7 @@ div {
 
   p {
     font-size: 1em;
+    width: 90%;
   }
 
   div {

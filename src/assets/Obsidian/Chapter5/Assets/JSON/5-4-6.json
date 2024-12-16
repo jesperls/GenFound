@@ -1,0 +1,13 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "text": "You look into the mirror and see... ^1000 ^media <br><br>^500 The same old you.
+^3000 <br><br> You stare into the eyes of the person in the mirror. ^1500Your memory sparks. ^1500You remember. ^1500The Janitor. ^1500The Teacher. ^1500The Monster. ^1500You need to leave. ^1500Now.",
+            "address": "https://foundergame-assets.s3.us-east-2.amazonaws.com/5-mirror.png",
+            "answer1": "leave",
+            "answer1Location": "5-5-1",
+            "id": "chapter-5-4-6"
+        }
+    }
+}

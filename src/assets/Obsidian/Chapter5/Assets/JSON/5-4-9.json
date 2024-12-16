@@ -1,0 +1,14 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "5-4-2",
+            "answer1Location": "5-4-10",
+            "text": "You continue to explore the library. ^1500 Hoping to find some kind of answer or guide.^1500 You come across a single red book. ^1500 You try and pry its pages open, but it won’t budge. ^1500 Seems like it isn’t for you.",
+            "address": "",
+            "answer1": "keep exploring",
+            "id": "chapter-5-4-9",
+            "answer2": "leave"
+        }
+    }
+}

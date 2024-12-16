@@ -1,0 +1,13 @@
+{
+    "statusCode": 200,
+    "response": {
+        "chapter": {
+            "answer2Location": "5-6-1",
+            "text": "You turn around looking for a way to escape. ^1500Quickly. ^1500As you turn around, you see a red blur through the classroom door window. ^1500The door creeks open. ^1500You make a run for it back into the hallway.",
+            "answer1": "left",
+            "answer1Location": "5-6-0",
+            "id": "chapter-5-5-3-3",
+            "answer2": "right"
+        }
+    }
+}
