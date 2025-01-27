@@ -1,14 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "5-3-01",
-            "answer1Location": "5-3-0",
-            "text": "Your name is Ben.^1500 You wake up and slowly lift your head from your desk.^1500 You feel a heaviness in your chest that you can’t shake.^1500 Your breaths are short and sharp.^1500 You look around to find the classroom empty.^1500 You feel nauseous.",
-            "address": "",
-            "answer1": "look around",
-            "id": "chapter-5-2-2",
-            "answer2": "inspect desk"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"5-3-01","answer1Location":"5-3-0","text":"Your name is Ben.^1500 You wake up and slowly lift your head from your desk.^1500 You feel a heaviness in your chest that you can’t shake.^1500 Your breaths are short and sharp.^1500 You look around to find the classroom empty.^1500 You feel nauseous.","address":"","answer1":"look around","id":"chapter-5-2-2","answer2":"inspect desk"},"isProd":true}}

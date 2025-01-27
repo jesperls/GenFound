@@ -1,15 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "5-3-4",
-            "answer1Location": "5-3-3",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "You get up from your desk, taking your bag with you. ^1500 You look around the classroom, there are less desks than normal. ^1500 You hear your pulse echo through your head in the silence. ^1500 It's unsettling.",
-            "answer1": "look out the window",
-            "id": "chapter-5-3-1",
-            "answer2": "teachers desk"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"5-3-4","answer1Location":"5-3-3","answer3Location":"","answer3":"","text":"You get up from your desk, taking your bag with you. ^1500 You look around the classroom, there are less desks than normal. ^1500 You hear your pulse echo through your head in the silence. ^1500 It's unsettling.","answer1":"look out the window","id":"chapter-5-3-1","answer2":"teachers desk"},"isProd":true}}

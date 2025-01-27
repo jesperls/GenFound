@@ -1,16 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "",
-            "answer1Location": "4-10-1",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "You look at your desk and see your class notes.^1500 You can pinpoint the exact moment you stopped paying attention and started to doodle.^1500 Your history notes cut off as a crude drawing of a robot takes up the rest of the page, the ink slightly smudged from the results of your nap.",
-            "address": "",
-            "answer1": "look around",
-            "id": "chapter-4-10-2",
-            "answer2": ""
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"","answer1Location":"4-10-1","answer3Location":"","answer3":"","text":"You look at your desk and see your class notes.^1500 You can pinpoint the exact moment you stopped paying attention and started to doodle.^1500 Your history notes cut off as a crude drawing of a robot takes up the rest of the page, the ink slightly smudged from the results of your nap.","address":"","answer1":"look around","id":"chapter-4-10-2","answer2":""},"isProd":true}}

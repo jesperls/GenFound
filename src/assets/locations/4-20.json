@@ -1,14 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "4-21-2",
-            "metadata": "",
-            "answer1Location": "4-21-1",
-            "text": "You’ve already broke down the door, what’s the harm in looking around too!^1500 You walk into the computer room.^1500 It’s even darker than the hallways, and cold too.^1500 You walk through the room scanning each computer, each one covered in a layer of dust.^1500 You can’t recall the last time you were in this room, or remember anyone in this room for a matter of fact.^1500 As you walk through the room you notice one computer by itself.",
-            "answer1": "look at computer",
-            "id": "chapter-4-20",
-            "answer2": "leave"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"4-21-2","metadata":"","answer1Location":"4-21-1","text":"You’ve already broke down the door, what’s the harm in looking around too!^1500 You walk into the computer room.^1500 It’s even darker than the hallways, and cold too.^1500 You walk through the room scanning each computer, each one covered in a layer of dust.^1500 You can’t recall the last time you were in this room, or remember anyone in this room for a matter of fact.^1500 As you walk through the room you notice one computer by itself.","answer1":"look at computer","id":"chapter-4-20","answer2":"leave"},"isProd":true}}

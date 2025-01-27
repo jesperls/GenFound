@@ -1,15 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "",
-            "answer1Location": "2-9",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "You don’t wanna be in this place any more then you already have to.^1500 You start to worry about where your parents must think you are.^1500 It’s time to leave.",
-            "id": "chapter-2-8",
-            "answer1": "continue",
-            "answer2": ""
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"","answer1Location":"2-9","answer3Location":"","answer3":"","text":"You don’t wanna be in this place any more then you already have to.^1500 You start to worry about where your parents must think you are.^1500 It’s time to leave.","id":"chapter-2-8","answer1":"continue","answer2":""},"isProd":true}}

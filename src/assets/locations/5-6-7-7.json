@@ -1,11 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "You go to turn the handle, the door is locked. ^1500 You hear a loud grunt from the other side of the door.",
-            "answer1": "Leave",
-            "answer1Location": "5-6-7-8",
-            "id": "chapter-5-6-7-7"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"You go to turn the handle, the door is locked. ^1500 You hear a loud grunt from the other side of the door.","answer1":"Leave","answer1Location":"5-6-7-8","id":"chapter-5-6-7-7"},"isProd":true}}

@@ -1,15 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "",
-            "answer1Location": "4-8",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "You hear a crash,^500 and feel the weight of the seat above you crash into your back.^1500 You can only let out a stifled groan before you hear one more crash.^1500 You can’t feel your legs.^1500 Or your torso.^1500 They are no longer attached to you.^1500 Your vision goes black.",
-            "answer1": "continue",
-            "id": "chapter-4-7-2",
-            "answer2": ""
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"","answer1Location":"4-8","answer3Location":"","answer3":"","text":"You hear a crash,^500 and feel the weight of the seat above you crash into your back.^1500 You can only let out a stifled groan before you hear one more crash.^1500 You can’t feel your legs.^1500 Or your torso.^1500 They are no longer attached to you.^1500 Your vision goes black.","address":"","answer1":"continue","id":"chapter-4-7-2","answer2":""},"isProd":true}}

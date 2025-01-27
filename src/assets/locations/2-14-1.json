@@ -1,15 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "",
-            "answer1Location": "2-10",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "You look at the countless faces of the most memorable students from past years.^1500 People that you have never known personally, but these people are worth remembering more than all of the others.^1500 But there are countless trophy cases in countless schools that you don’t even know about, so how important can these people really be?^1500 You shake out of the existentialism and get back to searching for what made the glass break.^1500 You search the case to find a small branch has made its way inside, seemingly thrown at the glass.",
-            "id": "chapter-2-14-1",
-            "answer1": "continue",
-            "answer2": ""
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"","answer1Location":"2-10","answer3Location":"","answer3":"","text":"You look at the countless faces of the most memorable students from past years.^1500 People that you have never known personally, but these people are worth remembering more than all of the others.^1500 But there are countless trophy cases in countless schools that you don’t even know about, so how important can these people really be?^1500 You shake out of the existentialism and get back to searching for what made the glass break.^1500 You search the case to find a small branch has made its way inside, seemingly thrown at the glass.","id":"chapter-2-14-1","answer1":"continue","answer2":""},"isProd":true}}

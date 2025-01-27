@@ -1,15 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "2-15",
-            "answer1Location": "2-14-1",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "You try the door again.^1500 Shocker,^1500 It’s still locked.^1500 You glance back at the trophy case behind you,^1500 what could’ve made that shape in the glass?",
-            "id": "chapter-2-14-2",
-            "answer1": "inspect the trophy case",
-            "answer2": "try the door"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"2-15","answer1Location":"2-14-1","answer3Location":"","answer3":"","text":"You try the door again.^1500 Shocker,^1500 It’s still locked.^1500 You glance back at the trophy case behind you,^1500 what could’ve made that shape in the glass?","id":"chapter-2-14-2","answer1":"inspect the trophy case","answer2":"try the door"},"isProd":true}}

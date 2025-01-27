@@ -1,11 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "She pauses for a second before walking again.^1500<br><br> “Dead?^750 You must have just seen something sweetie.^1500 He is known to take long naps after all!^1500 Don’t you remember?”",
-            "answer1Location": "4-36-3",
-            "id": "chapter-4-35-1",
-            "answer1": "where are we going"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"She pauses for a second before walking again.^1500<br><br> “Dead?^750 You must have just seen something sweetie.^1500 He is known to take long naps after all!^1500 Don’t you remember?”","answer1Location":"4-36-3","id":"chapter-4-35-1","answer1":"where are we going"},"isProd":true}}

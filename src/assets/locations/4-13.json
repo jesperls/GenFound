@@ -1,16 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "",
-            "answer1Location": "4-14",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "You open the classroom door and enter an all too familiar hallway.^1500 Lifeless and empty the hallway now has an eerie silence to it in contrast to its usual bustle.^1500 Purple lockers span the sides as various school club posters hang above them.",
-            "address": "",
-            "answer1": "continue",
-            "id": "chapter-4-13",
-            "answer2": ""
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"","answer1Location":"4-14","answer3Location":"","answer3":"","text":"You open the classroom door and enter an all too familiar hallway.^1500 Lifeless and empty the hallway now has an eerie silence to it in contrast to its usual bustle.^1500 Purple lockers span the sides as various school club posters hang above them.","address":"","answer1":"continue","id":"chapter-4-13","answer2":""},"isProd":true}}

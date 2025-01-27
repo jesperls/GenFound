@@ -1,11 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "You think to yourself for a moment. ^1500 You feel a tightness in your chest. ^1500 As you go to clutch your chest, you notice how badly your hands are shaking. ^1500 You just want to find the exit and go home.",
-            "answer1": "get up",
-            "answer1Location": "5-3-1",
-            "id": "chapter-5-3-2"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"You think to yourself for a moment. ^1500 You feel a tightness in your chest. ^1500 As you go to clutch your chest, you notice how badly your hands are shaking. ^1500 You just want to find the exit and go home.","answer1":"get up","answer1Location":"5-3-1","id":"chapter-5-3-2"},"isProd":true}}

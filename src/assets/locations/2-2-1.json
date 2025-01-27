@@ -1,11 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "You try the door,^500 before you can press fully you feel a blunt force hit your back,^500 the pain shoots through your spine as your vision begins to darken.",
-            "answer1Location": "2-2-2",
-            "id": "chapter-2-2-1",
-            "answer1": "continue"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"You try the door,^500 before you can press fully you feel a blunt force hit your back,^500 the pain shoots through your spine as your vision begins to darken.","answer1Location":"2-2-2","id":"chapter-2-2-1","answer1":"continue"},"isProd":true}}

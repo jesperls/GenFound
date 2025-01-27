@@ -1,11 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "You step back from the teacher’s desk. ^1500 It's enough of a mess, you shouldn’t touch anything",
-            "answer1": "Continue",
-            "answer1Location": "5-6-4-9",
-            "id": "chapter-5-6-4-8"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"You step back from the teacher’s desk. ^1500 It's enough of a mess, you shouldn’t touch anything","answer1":"Continue","answer1Location":"5-6-4-9","id":"chapter-5-6-4-8"},"isProd":true}}

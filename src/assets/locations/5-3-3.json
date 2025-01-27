@@ -1,15 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "",
-            "answer1Location": "5-3-5",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "You walk towards the windows. ^1500 It’s dark out, so dark you can barely see outside past a few feet. ^1500 Wondering what time it could be, you glance at your wrist. ^1500 Must’ve forgotten your watch this morning.",
-            "answer1": "leave",
-            "id": "chapter-5-3-3",
-            "answer2": ""
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"","answer1Location":"5-3-5","answer3Location":"","answer3":"","text":"You walk towards the windows. ^1500 It’s dark out, so dark you can barely see outside past a few feet. ^1500 Wondering what time it could be, you glance at your wrist. ^1500 Must’ve forgotten your watch this morning.","answer1":"leave","id":"chapter-5-3-3","answer2":""},"isProd":true}}

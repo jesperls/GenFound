@@ -1,15 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "4-6-2",
-            "answer1Location": "4-6-1",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "You run into the gym and close the door behind you with a loud slam.^1500 Shit.^1500 You need to hide.^1500 Quick.^3000 You look to the exit to see it barricaded by gym equipment.^1500 Beside it,^500 the bleachers are still out from the last pep rally.",
-            "answer1": "unblock gym exit",
-            "id": "chapter-4-5",
-            "answer2": "hide under bleachers"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"4-6-2","answer1Location":"4-6-1","answer3Location":"","answer3":"","text":"You run into the gym and close the door behind you with a loud slam.^1500 Shit.^1500 You need to hide.^1500 Quick.^3000 You look to the exit to see it barricaded by gym equipment.^1500 Beside it,^500 the bleachers are still out from the last pep rally.","answer1":"unblock gym exit","id":"chapter-4-5","answer2":"hide under bleachers"},"isProd":true}}

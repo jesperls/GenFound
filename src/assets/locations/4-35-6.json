@@ -1,11 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "“Almost midnight.”^1500<br><br> She says without missing a beat.^1500 She keeps walking.",
-            "answer1Location": "4-36-3",
-            "id": "chapter-4-35-6",
-            "answer1": "where are we going"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"“Almost midnight.”^1500<br><br> She says without missing a beat.^1500 She keeps walking.","answer1Location":"4-36-3","id":"chapter-4-35-6","answer1":"where are we going"},"isProd":true}}

@@ -1,16 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "",
-            "answer1Location": "2-18",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "You press play on the file.^1500 It loads for a second then begins to play over the speakers.^1500 It’s hard to make out what you’re hearing through the distortion,^500 but you hear the secretary’s voice.^4000^media",
-            "address": "13.45.32-8.13.mp3",
-            "id": "chapter-2-17",
-            "answer1": "leave",
-            "answer2": ""
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"","answer1Location":"2-18","answer3Location":"","answer3":"","text":"You press play on the file.^1500 It loads for a second then begins to play over the speakers.^1500 It’s hard to make out what you’re hearing through the distortion,^500 but you hear the secretary’s voice.^4000^media","address":"13.45.32-8.13.mp3","id":"chapter-2-17","answer1":"leave","answer2":""},"isProd":true}}

@@ -1,13 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "4-19-2",
-            "text": "You step back and ram your shoulder into the door.^1500 You hear the lock snap and the door swings open.^1500 You look at the damage you did.^1500 You could probably get away with it if you <span class=\"white\">leave</span> now.",
-            "answer1": "go inside",
-            "answer1Location": "4-20",
-            "id": "chapter-4-19-1",
-            "answer2": "leave"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"4-19-2","text":"You step back and ram your shoulder into the door.^1500 You hear the lock snap and the door swings open.^1500 You look at the damage you did.^1500 You could probably get away with it if you <span class=\"white\">leave</span> now.","answer1":"go inside","answer1Location":"4-20","id":"chapter-4-19-1","answer2":"leave"},"isProd":true}}

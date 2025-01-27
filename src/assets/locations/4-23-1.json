@@ -1,14 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "4-24-1",
-            "metadata": "",
-            "answer1Location": "4-100",
-            "text": "You wait a little longer.^1500 Suddenly a password entry appears.",
-            "answer1": "try a password",
-            "id": "chapter-4-23-1",
-            "answer2": "leave"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"4-24-1","metadata":"","answer1Location":"4-100","text":"You wait a little longer.^1500 Suddenly a password entry appears.","answer1":"try a password","id":"chapter-4-23-1","answer2":"leave"},"isProd":true}}

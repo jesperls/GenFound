@@ -1,12 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "You turn right.^1500 You start to slow down to catch your breath.^1500 As you slow down, you realize you can’t hear footsteps behind you any longer.^1500 But you still need to find a way out.^1500 You keep moving.",
-            "address": "",
-            "answer1": "continue",
-            "answer1Location": "4-32",
-            "id": "chapter-4-31-1"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"You turn right.^1500 You start to slow down to catch your breath.^1500 As you slow down, you realize you can’t hear footsteps behind you any longer.^1500 But you still need to find a way out.^1500 You keep moving.","address":"","answer1":"continue","answer1Location":"4-32","id":"chapter-4-31-1"},"isProd":true}}

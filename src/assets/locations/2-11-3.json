@@ -1,15 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "",
-            "answer1Location": "2-13",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "You walk to the principal’s office.^1500 Just to have a peek as you’ve always been curious about the rumor that he keeps a large amount of candy in his top desk drawer that gets taken from the annual halloween bash.^1500 As you walk up the stairs you feel a weird sense of familiarity with your surroundings.",
-            "id": "chapter-2-11-3",
-            "answer1": "try the door",
-            "answer2": ""
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"","answer1Location":"2-13","answer3Location":"","answer3":"","text":"You walk to the principal’s office.^1500 Just to have a peek as you’ve always been curious about the rumor that he keeps a large amount of candy in his top desk drawer that gets taken from the annual halloween bash.^1500 As you walk up the stairs you feel a weird sense of familiarity with your surroundings.","id":"chapter-2-11-3","answer1":"try the door","answer2":""},"isProd":true}}

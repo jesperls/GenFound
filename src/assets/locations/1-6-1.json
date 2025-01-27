@@ -1,15 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "",
-            "answer1Location": "1-6-2",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "you come upon a door that is slightly open.^1500 it looks different,^1500 this is a regular wooden door.",
-            "id": "chapter-1-6-1",
-            "answer1": "peek inside",
-            "answer2": ""
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"","answer1Location":"1-6-2","answer3Location":"","answer3":"","text":"you come upon a door that is slightly open.^1500 it looks different,^1500 this is a regular wooden door.","id":"chapter-1-6-1","answer1":"peek inside","answer2":""},"isProd":true}}

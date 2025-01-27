@@ -1,16 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "",
-            "answer1Location": "3-16",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "“THERE'S A MONSTER!”^500 You quickly explain.^1500 “Or some kind of large^500.^500.^500. guy?^1000 Thing?^1000 I'm not really sure...^1500 I think it’s been following me.^1500  I tried getting out through a window, and it tried to grab me, I think it wants to KILL ME or something.”^1500 You explain how the windows have been locked, and the janitor takes a long sigh.",
-            "address": "",
-            "answer1": "continue",
-            "id": "chapter-3-15",
-            "answer2": ""
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"","answer1Location":"3-16","answer3Location":"","answer3":"","text":"“THERE'S A MONSTER!”^500 You quickly explain.^1500 “Or some kind of large^500.^500.^500. guy?^1000 Thing?^1000 I'm not really sure...^1500 I think it’s been following me.^1500  I tried getting out through a window, and it tried to grab me, I think it wants to KILL ME or something.”^1500 You explain how the windows have been locked, and the janitor takes a long sigh.","address":"","answer1":"continue","id":"chapter-3-15","answer2":""},"isProd":true}}

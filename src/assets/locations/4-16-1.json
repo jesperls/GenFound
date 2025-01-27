@@ -1,16 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "",
-            "answer1Location": "4-16-2",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "You look into the mirror and see^500.^500.^500.^media^1000.<br><br>The same old you.",
-            "address": "4-mirror.png",
-            "answer1": "leave",
-            "id": "chapter-4-16-1",
-            "answer2": ""
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"","answer1Location":"4-16-2","answer3Location":"","answer3":"","text":"You look into the mirror and see^500.^500.^500.^media^1000.<br><br>The same old you.","address":"4-mirror.png","answer1":"leave","id":"chapter-4-16-1","answer2":""},"isProd":true}}

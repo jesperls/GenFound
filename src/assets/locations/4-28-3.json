@@ -1,13 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "4-30-1",
-            "text": "You turn left and keep running.^1500 The halls line with lockers.^1500 Too many lockers.",
-            "answer1Location": "4-28-4",
-            "id": "chapter-4-28-3",
-            "answer1": "left",
-            "answer2": "right"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"4-30-1","text":"You turn left and keep running.^1500 The halls line with lockers.^1500 Too many lockers.","answer1Location":"4-28-4","id":"chapter-4-28-3","answer1":"left","answer2":"right"},"isProd":true}}

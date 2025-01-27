@@ -1,16 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "3-5-3-14-1",
-            "answer1Location": "3-5-3-14-2",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "You search the theater.^1500 You walk onto the stage,^500 past the props,^500 and peek behind the curtain.^1500 You see a large red EXIT sign illuminating the various scripts and old paint cans that lie there.^500 You follow the exit sign and open the door.^500 In front of you lies a long hallway.",
-            "address": "",
-            "answer1": "walk",
-            "id": "chapter-3-5-3-13",
-            "answer2": "leave"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"3-5-3-14-1","answer1Location":"3-5-3-14-2","answer3Location":"","answer3":"","text":"You search the theater.^1500 You walk onto the stage,^500 past the props,^500 and peek behind the curtain.^1500 You see a large red EXIT sign illuminating the various scripts and old paint cans that lie there.^500 You follow the exit sign and open the door.^500 In front of you lies a long hallway.","address":"","answer1":"walk","id":"chapter-3-5-3-13","answer2":"leave"},"isProd":true}}

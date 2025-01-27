@@ -1,16 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "",
-            "answer1Location": "3-18-1",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "“What are you doing here, son?”^1500 <br>\nThe Janitor walks around the corner.^1500 <br>\n“You seem just as scared as I was!^1500 come here, You aren’t supposed to be here this late.”^1500 <br><br>You look down at your hand.^1500 You’re holding a Yo-yo.^1500You put it back in the box and think to yourself.^1500 You probably could’ve done some damage with that.",
-            "address": "",
-            "answer1": "continue",
-            "id": "chapter-3-17-2",
-            "answer2": ""
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"","answer1Location":"3-18-1","answer3Location":"","answer3":"","text":"“What are you doing here, son?”^1500 <br>\nThe Janitor walks around the corner.^1500 <br>\n“You seem just as scared as I was!^1500 come here, You aren’t supposed to be here this late.”^1500 <br><br>You look down at your hand.^1500 You’re holding a Yo-yo.^1500You put it back in the box and think to yourself.^1500 You probably could’ve done some damage with that.","address":"","answer1":"continue","id":"chapter-3-17-2","answer2":""},"isProd":true}}

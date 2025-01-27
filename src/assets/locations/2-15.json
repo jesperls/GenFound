@@ -1,15 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "2-18",
-            "answer1Location": "2-16",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "You try the door again.^1500 The handle breaks and the door swings open.^1500 You walk towards the principals desk.^1500 Its covered in paperwork about students you don’t know well enough to recognize.^1500 In the corner of your eye you catch the glimpse of her PC power light flashing.\nOutside you hear rustling of glass.",
-            "id": "chapter-2-15",
-            "answer1": "turn on the pc",
-            "answer2": "leave"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"2-18","answer1Location":"2-16","answer3Location":"","answer3":"","text":"You try the door again.^1500 The handle breaks and the door swings open.^1500 You walk towards the principal's desk.^1500 It's covered in paperwork about students you don’t know well enough to recognize.^1500 In the corner of your eye you catch the glimpse of her PC power light flashing.^1500\nOutside, you hear rustling of glass.","answer1":"turn on the pc","id":"chapter-2-15","answer2":"leave"},"isProd":true}}

@@ -1,13 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "4-29-1",
-            "text": "You turn left and keep running.^1500 Lockers and locked doors pass you by.",
-            "answer1Location": "4-28-3",
-            "id": "chapter-4-28-2",
-            "answer1": "left",
-            "answer2": "right"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"4-29-1","text":"You turn left and keep running.^1500 Lockers and locked doors pass you by.","answer1Location":"4-28-3","id":"chapter-4-28-2","answer1":"left","answer2":"right"},"isProd":true}}

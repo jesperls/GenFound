@@ -1,11 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "You pick up the book and read the spine. ^1500 It's called “String Theory and Parallel Universes.” ^1500 Who even teaches in this room?",
-            "answer1": "Leave",
-            "answer1Location": "5-6-4-8",
-            "id": "chapter-5-6-4-7"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"You pick up the book and read the spine. ^1500 It's called “String Theory and Parallel Universes.” ^1500 Who even teaches in this room?","answer1":"Leave","answer1Location":"5-6-4-8","id":"chapter-5-6-4-7"},"isProd":true}}

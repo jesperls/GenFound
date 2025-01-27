@@ -1,15 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "2-1-1",
-            "answer1Location": "2-1-0",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "You walk to the holding cell.^1500 A large metal door comes up on your right of the tight hallway.^1500 You cant seem to find any way to open it.^1500 It seems sealed shut.^1500 As you inspect the door you hear a soft growl come from the other side.^1500 What you can only assume and hope is a one way mirror is to the left of the door.",
-            "id": "chapter-2-0-0",
-            "answer1": "look into the window",
-            "answer2": "keep walking"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"2-1-1","answer1Location":"2-1-0","answer3Location":"","answer3":"","text":"You walk to the holding cell.^1500 A large metal door comes up on your right of the tight hallway.^1500 You can't seem to find any way to open it.^1500 It seems sealed shut.^1500 As you inspect the door you hear a soft growl come from the other side.^1500 What you can only assume and hope is a one way mirror is to the left of the door.","answer1":"look into the window","id":"chapter-2-0-0","answer2":"keep walking"},"isProd":true}}

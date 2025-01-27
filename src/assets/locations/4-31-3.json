@@ -1,12 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "You turn around and go back the way you came.^1500 Thinking about what you just saw, you look back at the lockers behind you.^1500 They look like normal.^1500 You must’ve just been too tired from all the running.",
-            "address": "",
-            "answer1": "keep walking",
-            "answer1Location": "4-32",
-            "id": "chapter-4-31-3"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"You turn around and go back the way you came.^1500 Thinking about what you just saw, you look back at the lockers behind you.^1500 They look like normal.^1500 You must’ve just been too tired from all the running.","address":"","answer1":"keep walking","answer1Location":"4-32","id":"chapter-4-31-3"},"isProd":true}}

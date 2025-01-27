@@ -1,15 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "5-5-3",
-            "answer1Location": "5-5-2",
-            "answer3Location": "5-5-4",
-            "answer3": "ceiling",
-            "text": "You quickly run out of the bathroom and turn to run to the exit. ^1500As you walk out the door, you come to a halt. ^1500You look around you. ^1500You’re back in your classroom. ^1500As you turn around to look back into the bathroom, the door slams shut. ^1500You need to find a way out.",
-            "answer1": "door",
-            "id": "chapter-5-5-1",
-            "answer2": "windows"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"5-5-3","answer1Location":"5-5-2","answer3Location":"5-5-4","answer3":"ceiling","text":"You quickly run out of the bathroom and turn to run to the exit. ^1500As you walk out the door, you come to a halt. ^1500You look around. ^1500You’re back in your classroom. ^1500As you turn around to look back into the bathroom, the door slams shut. ^1500You need to find a way out.","answer1":"door","id":"chapter-5-5-1","answer2":"windows"},"isProd":true}}

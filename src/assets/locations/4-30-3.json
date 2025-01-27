@@ -1,13 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "4-30-4",
-            "text": "You turn left and keep running.^1500 You glance around to figure out where you are.^1500 The lockers seem to be growing shorter.^1500 You slow down and look around.^1500 You can’t hear footsteps following you anymore.^1500 You notice lockers upside down.^1500 Lockers with no doors.^1500 Lockers missing entirely.^1500 You come across a classroom with no door.",
-            "answer1": "go back",
-            "answer1Location": "4-31-3",
-            "id": "chapter-4-30-3",
-            "answer2": "go inside"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"4-30-4","text":"You turn left and keep running.^1500 You glance around to figure out where you are.^1500 The lockers seem to be growing shorter.^1500 You slow down and look around.^1500 You can’t hear footsteps following you anymore.^1500 You notice lockers upside down.^1500 Lockers with no doors.^1500 Lockers missing entirely.^1500 You come across a classroom with no door.","answer1":"go back","answer1Location":"4-31-3","id":"chapter-4-30-3","answer2":"go inside"},"isProd":true}}

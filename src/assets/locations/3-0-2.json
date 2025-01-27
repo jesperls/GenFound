@@ -1,16 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "",
-            "answer1Location": "3-1-2",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "You decide to follow the red one.^1500 He leads you down hallways, looking back every so often to see if you are still following.^1500 He makes it to another exit, and turns to face you.",
-            "address": "3-0-2.png",
-            "answer1": "continue",
-            "id": "chapter-3-0-2",
-            "answer2": ""
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"","answer1Location":"3-1-2","answer3Location":"","answer3":"","text":"You decide to follow the red one.^1500 He leads you down hallways, looking back every so often to see if you are still following.^1500 He makes it to another exit, and turns to face you.","address":"3-0-2.png","answer1":"continue","id":"chapter-3-0-2","answer2":""},"isProd":true}}

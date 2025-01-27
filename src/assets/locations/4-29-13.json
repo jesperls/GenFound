@@ -1,11 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "You keep moving.^1500 You still have to find your way out somehow.^1500 Still no footsteps.^1500 You guess you outran it.",
-            "answer1Location": "4-32",
-            "id": "chapter-4-29-13",
-            "answer1": "keep walking"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"You keep moving.^1500 You still have to find your way out somehow.^1500 Still no footsteps.^1500 You guess you outran it.","answer1Location":"4-32","id":"chapter-4-29-13","answer1":"keep walking"},"isProd":true}}

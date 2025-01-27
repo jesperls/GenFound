@@ -1,13 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "5-6-4-6",
-            "text": "You walk through the room. You don’t think you’ve had any classes in here before. The walls are covered in posters about space and time. You reach the other side of the classroom and find yourself in front of the teacher's desk. It’s covered in messy paperwork and books. Next to the desk is a door labelled “storage”.",
-            "answer1": "Look at Desk",
-            "answer1Location": "5-6-4-2",
-            "id": "chapter-5-6-4-1",
-            "answer2": "Look In Storage"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"5-6-4-6","text":"You walk through the room. You don’t think you’ve had any classes in here before. The walls are covered in posters about space and time. You reach the other side of the classroom and find yourself in front of the teacher's desk. It’s covered in messy paperwork and books. Next to the desk is a door labelled “storage”.","answer1":"Look at Desk","answer1Location":"5-6-4-2","id":"chapter-5-6-4-1","answer2":"Look In Storage"},"isProd":true}}

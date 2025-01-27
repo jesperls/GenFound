@@ -1,16 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "",
-            "answer1Location": "4-14",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "You leave the bathroom.",
-            "address": "",
-            "answer1": "continue",
-            "id": "chapter-4-16-2",
-            "answer2": ""
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"","answer1Location":"4-14","answer3Location":"","answer3":"","text":"You leave the bathroom.","address":"","answer1":"continue","id":"chapter-4-16-2","answer2":""},"isProd":true}}

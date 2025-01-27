@@ -1,15 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "",
-            "answer1Location": "1-5-1",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "you try the door.^1500 it won't budge.",
-            "id": "chapter-1-6-3",
-            "answer1": "keep walking",
-            "answer2": ""
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"","answer1Location":"1-5-1","answer3Location":"","answer3":"","text":"you try the door.^1500 it won't budge.","id":"chapter-1-6-3","answer1":"keep walking","answer2":""},"isProd":true}}

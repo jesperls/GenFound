@@ -49,8 +49,21 @@ export class PanelComponent implements OnInit {
       case 'wav':
         return 'audio';
       default:
-        return 'unknown';
+        return address ? 'text' : 'unknown';
     }
+  }
+
+  getAnswers(response: any): Array<{ text: string; location?: string }> {
+    const answers: Array<{ text: string; location?: string }> = [];
+    for (let i = 1; i <= 10; i++) {
+      const textKey = `answer${i}`;
+      const locationKey = `answer${i}Location`;
+      const text = response[textKey]?.trim();
+      if (text) {
+        answers.push({ text, location: response[locationKey] });
+      }
+    }
+    return answers;
   }
 
   loadChapter(location: string, buttonClick?: boolean) {

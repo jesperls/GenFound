@@ -1,13 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "4-31-1",
-            "text": "You turn left and keep running.^1500 The lockers stretch on and on, further than you can see.^1500 You start to get dizzy.",
-            "answer1": "left",
-            "answer1Location": "4-28-5",
-            "id": "chapter-4-28-4",
-            "answer2": "right"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"4-31-1","text":"You turn left and keep running.^1500 The lockers stretch on and on, further than you can see.^1500 You start to get dizzy.","answer1":"left","answer1Location":"4-28-5","id":"chapter-4-28-4","answer2":"right"},"isProd":true}}

@@ -1,11 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "You turn the corner to a familiar scene, your principals' office.^1500 You sigh in relief. ^1500You think you can remember another exit route from here. ^1500You can remember a few places to get to from here.",
-            "answer1": "walk",
-            "answer1Location": "5-7-1",
-            "id": "chapter-5-7-0"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"You turn the corner to a familiar scene, your principals' office.^1500 You sigh in relief. ^1500You think you can remember another exit route from here. ^1500You can remember a few places to get to from here.","answer1":"walk","answer1Location":"5-7-1","id":"chapter-5-7-0"},"isProd":true}}

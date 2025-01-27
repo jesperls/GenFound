@@ -1,16 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "",
-            "answer1Location": "3-17-2",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "You figure it’s best to fight rather than cower in fear.^1500 You got to lead by example for your football team.^1500 You got to put up a fight.^1500 You grab the first thing you feel from the box and jump out into view with a loud yell.^1500 <br><br>”AAGH!^1000 You startled me!”",
-            "address": "",
-            "answer1": "continue",
-            "id": "chapter-3-16-2",
-            "answer2": ""
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"","answer1Location":"3-17-2","answer3Location":"","answer3":"","text":"You figure it’s best to fight rather than cower in fear.^1500 You got to lead by example for your football team.^1500 You got to put up a fight.^1500 You grab the first thing you feel from the box and jump out into view with a loud yell.^1500 <br><br>”AAGH!^1000 You startled me!”","address":"","answer1":"continue","id":"chapter-3-16-2","answer2":""},"isProd":true}}

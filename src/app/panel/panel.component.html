@@ -1,5 +1,5 @@
 <div>
-  <p>{{chapterLocation}}</p>
+  <p>{{ chapterLocation }}</p>
 </div>
 <ng-template #mediaDisplay let-address>
   <ng-container [ngSwitch]="getMediaType(address)">
@@ -21,7 +21,10 @@
       [src]="'/assets/sounds/' + address"
       controls
     ></audio>
-    <p *ngSwitchDefault>Unsupported media type</p>
+    <i
+      ><p *ngSwitchCase="'text'" [innerHTML]="'Hidden Text: ' + address"></p
+    ></i>
+    <!-- <p *ngSwitchDefault>Unsupported media type</p> -->
   </ng-container>
 </ng-template>
 
@@ -30,38 +33,52 @@
     <div *ngIf="hasHistory">
       <button (click)="goBack()">BACK</button>
     </div>
-    <div *ngIf="response.answer1">
+    <div *ngFor="let ans of getAnswers(response)">
       <button
-        *ngIf="response.answer1Location; else noAction1"
-        (click)="loadChapter(response.answer1Location, true)"
+        *ngIf="ans.location; else noAction"
+        (click)="loadChapter(ans.location, true)"
       >
-        {{ response.answer1.toUpperCase() }}
+        {{ ans.text.toUpperCase() }}
       </button>
-      <ng-template #noAction1>
-        <button>{{ response.answer1.toUpperCase() }}</button>
+      <ng-template #noAction>
+        <button>{{ ans.text.toUpperCase() }}</button>
       </ng-template>
     </div>
-    <div *ngIf="response.answer2">
-      <button
-        *ngIf="response.answer2Location; else noAction2"
-        (click)="loadChapter(response.answer2Location, true)"
-      >
-        {{ response.answer2.toUpperCase() }}
-      </button>
-      <ng-template #noAction2>
-        <button>{{ response.answer2.toUpperCase() }}</button>
-      </ng-template>
+  </div>
+</ng-template>
+
+<ng-template #pollContainer let-response>
+  <div class="poll-container">
+    <div *ngIf="hasHistory">
+      <button (click)="goBack()">BACK</button>
     </div>
-    <div *ngIf="response.answer3">
-      <button
-        *ngIf="response.answer3Location; else noAction3"
-        (click)="loadChapter(response.answer3Location, true)"
-      >
-        {{ response.answer3.toUpperCase() }}
-      </button>
-      <ng-template #noAction3>
-        <button>{{ response.answer3.toUpperCase() }}</button>
-      </ng-template>
+    <div *ngIf="response.content.metadata == 'textbox'" class="poll">
+      <textarea maxlength="100"></textarea>
+    </div>
+    <div *ngIf="response.content.metadata != 'textbox'" class="poll">
+      <div *ngIf="response.poll.answer1 && response.poll.answer1 > 0">
+        <div>{{ response.content.answer1 }}</div>
+        <div>{{ response.poll.answer1 }} votes</div>
+        <div>
+          {{
+            (response.poll.answer1 /
+              (response.poll.answer1 + response.poll.answer2)) *
+              100 | number : "1.0-2"
+          }}%
+        </div>
+      </div>
+
+      <div *ngIf="response.poll.answer2 && response.poll.answer2 > 0">
+        <div>{{ response.content.answer2 }}</div>
+        <div>{{ response.poll.answer2 }} votes</div>
+        <div>
+          {{
+            (response.poll.answer2 /
+              (response.poll.answer1 + response.poll.answer2)) *
+              100 | number : "1.0-2"
+          }}%
+        </div>
+      </div>
     </div>
   </div>
 </ng-template>
@@ -70,12 +87,18 @@
   <div *ngIf="data.response.chapter">
     <div *ngIf="data.response.chapter.address">
       <ng-container
-        *ngTemplateOutlet="mediaDisplay; context: { $implicit: data.response.chapter.address }"
+        *ngTemplateOutlet="
+          mediaDisplay;
+          context: { $implicit: data.response.chapter.address }
+        "
       ></ng-container>
     </div>
     <div *ngIf="data.response.chapter.metadata">
       <ng-container
-        *ngTemplateOutlet="mediaDisplay; context: { $implicit: data.response.chapter.metadata }"
+        *ngTemplateOutlet="
+          mediaDisplay;
+          context: { $implicit: data.response.chapter.metadata }
+        "
       ></ng-container>
     </div>
     <div
@@ -88,13 +111,19 @@
       <p [innerHTML]="part">{{ part }}</p>
     </div>
     <ng-container
-      *ngTemplateOutlet="buttonContainer; context: { $implicit: data.response.chapter }"
+      *ngTemplateOutlet="
+        buttonContainer;
+        context: { $implicit: data.response.chapter }
+      "
     ></ng-container>
   </div>
   <div *ngIf="data.response.content">
     <div *ngIf="data.response.content.address">
       <ng-container
-        *ngTemplateOutlet="mediaDisplay; context: { $implicit: data.response.content.address }"
+        *ngTemplateOutlet="
+          mediaDisplay;
+          context: { $implicit: data.response.content.address }
+        "
       ></ng-container>
     </div>
     <div
@@ -108,8 +137,10 @@
       <br />
       <p>CHAPTER END</p>
     </div>
-    <ng-container
-      *ngTemplateOutlet="buttonContainer; context: { $implicit: data.response.content }"
-    ></ng-container>
+    <div *ngIf="data.response.content && data.response.poll">
+      <ng-container
+        *ngTemplateOutlet="pollContainer; context: { $implicit: data.response }"
+      ></ng-container>
+    </div>
   </div>
 </div>

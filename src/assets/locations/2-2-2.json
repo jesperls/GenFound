@@ -1,12 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "metadata": "theorb.png",
-            "text": "You open your eyes to see a red glowing orb in front of you.^1500 Looking inside of it you almost feel like you cannot comprehend what lies before you.^1500 It is one color but many, bright but dark.^1500 You reach your hand towards it, hoping to gain some understanding",
-            "answer1Location": "2-3",
-            "id": "chapter-2-2-2",
-            "answer1": "continue"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"metadata":"theorb.png","text":"You open your eyes to see a red glowing orb in front of you.^1500 Looking inside of it, you almost feel like you cannot comprehend what lies before you.^1500 It is one color but many, bright but dark.^1500 You reach your hand towards it, hoping to gain some understanding","answer1":"continue","answer1Location":"2-3","id":"chapter-2-2-2"},"isProd":true}}

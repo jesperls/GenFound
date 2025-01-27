@@ -1,15 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "",
-            "answer1Location": "2-2-1",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "You keep walking down the hallway,^500 flickering fluorescent lights illuminate the concrete corridor.^1500 You stop at a red metal door.",
-            "id": "chapter-2-1-1",
-            "answer1": "try the door",
-            "answer2": ""
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"","answer1Location":"2-2-1","answer3Location":"","answer3":"","text":"You keep walking down the hallway,^500 flickering fluorescent lights illuminate the concrete corridor.^1500 You stop at a red metal door.","id":"chapter-2-1-1","answer1":"try the door","answer2":""},"isProd":true}}

@@ -1,13 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "3-14-2",
-            "text": "You rummage through the cupboards.^1500 Cups, plates, instant coffee.^1500 Nothing useful.^1500 You spot an unlabeled bin on a bottom shelf.",
-            "answer1Location": "3-15-1",
-            "id": "chapter-3-14-1",
-            "answer1": "look through bin",
-            "answer2": "check storage"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"3-14-2","text":"You rummage through the cupboards.^1500 Cups, plates, instant coffee.^1500 Nothing useful.^1500 You spot an unlabeled bin on a bottom shelf.","answer1Location":"3-15-1","id":"chapter-3-14-1","answer1":"look through bin","answer2":"check storage"},"isProd":true}}

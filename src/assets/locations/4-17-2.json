@@ -1,11 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "You’re already here after school hours, you don’t want to be caught in the computer lab too.^1500 You leave.",
-            "answer1Location": "4-14",
-            "id": "chapter-4-17-2",
-            "answer1": "continue"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"You’re already here after school hours, you don’t want to be caught in the computer lab too.^1500 You leave.","answer1Location":"4-14","id":"chapter-4-17-2","answer1":"continue"},"isProd":true}}

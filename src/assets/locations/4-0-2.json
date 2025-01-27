@@ -1,15 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "",
-            "answer1Location": "4-1-2",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "You duck behind a trashcan nearby,^500 able to watch as the janitor,^500 ready to fight,^500 takes out a large hunting knife from a holster on his side.^1500 The janitor glances to where you’ve hidden.^1500 You can see the uncertainty as his voice trembles.^1500 “Don't worry son,^500 I can still take ‘em.”",
-            "answer1": "continue",
-            "id": "chapter-4-0-2",
-            "answer2": ""
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"","answer1Location":"4-1-2","answer3Location":"","answer3":"","text":"You duck behind a trashcan nearby,^500 able to watch as the janitor,^500 ready to fight,^500 takes out a large hunting knife from a holster on his side.^1500  The janitor glances to where you’ve hidden.^1500 You can see the uncertainty as his voice trembles.^1500 “Don't worry son,^500 I can still take ‘em.”","answer1":"continue","id":"chapter-4-0-2","answer2":""},"isProd":true}}

@@ -1,11 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "You leave.^1500 The computer room isn’t worth all the trouble.",
-            "answer1Location": "4-14",
-            "id": "chapter-4-17-3",
-            "answer1": "continue"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"You leave.^1500 The computer room isn’t worth all the trouble.","answer1Location":"4-14","id":"chapter-4-17-3","answer1":"continue"},"isProd":true}}

@@ -1,15 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "2-11-2",
-            "answer1Location": "2-11-1",
-            "answer3Location": "2-11-3",
-            "answer3": "principals office",
-            "text": "The hallway is dark, only illuminated by the small amount of moonlight coming through the door windows, and the red <span class=\"white\">EXIT</span> sign at the end of the hallway.^1500 You know you should probably go to the exit and find your way home, but part of you wants to explore the rest of the school.^1500 You’ve never seen it past closing.",
-            "id": "chapter-2-10",
-            "answer1": "bathroom",
-            "answer2": "exit"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"2-11-2","answer1Location":"2-11-1","answer3Location":"2-11-3","answer3":"principals office","text":"The hallway is dark, only illuminated by the small amount of moonlight coming through the door windows, and the red <span class=\"white\">EXIT</span> sign at the end of the hallway.^1500 You know you should probably go to the exit and find your way home, but part of you wants to explore the rest of the school.^1500 You’ve never seen it past closing.","id":"chapter-2-10","answer1":"bathroom","answer2":"exit"},"isProd":true}}

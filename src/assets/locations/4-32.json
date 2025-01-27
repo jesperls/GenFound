@@ -1,12 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "As you turn down the hallway, you run right into a familiar face.^2000^media Your history teacher.",
-            "address": "4-teacher.png",
-            "answer1": "continue",
-            "answer1Location": "4-33",
-            "id": "chapter-4-32"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"As you turn down the hallway, you run right into a familiar face.^2000^media Your history teacher.","address":"4-teacher.png","answer1":"continue","answer1Location":"4-33","id":"chapter-4-32"},"isProd":true}}

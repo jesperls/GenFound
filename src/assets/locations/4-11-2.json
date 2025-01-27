@@ -1,16 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "",
-            "answer1Location": "4-11-1",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "You think to yourself.^1500 The Janitor must be still cleaning.^1500 You probably need to just find the exit and then go home.",
-            "address": "",
-            "answer1": "get up",
-            "id": "chapter-4-11-2",
-            "answer2": ""
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"","answer1Location":"4-11-1","answer3Location":"","answer3":"","text":"You think to yourself.^1500 The Janitor must be still cleaning.^1500 You probably need to just find the exit and then go home.","address":"","answer1":"get up","id":"chapter-4-11-2","answer2":""},"isProd":true}}

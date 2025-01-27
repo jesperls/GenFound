@@ -1,11 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "You turn to the hallway.^1500 Your teacher stops in her tracks.^1500 She stares straight ahead, fear fills her eyes as she pushes you behind her.^1500<br><br> “Don’t^1000 move.”^1000 She says sternly.",
-            "answer1": "look over her shoulder",
-            "answer1Location": "poll-4",
-            "id": "chapter-4-37"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"You turn to the hallway.^1500 Your teacher stops in her tracks.^1500 She stares straight ahead, fear fills her eyes as she pushes you behind her.^1500<br><br> “Don’t^1000 move.”^1000 She says sternly.","answer1":"look over her shoulder","answer1Location":"poll-4","id":"chapter-4-37"},"isProd":true}}

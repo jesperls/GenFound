@@ -1,15 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "",
-            "answer1Location": "poll-2",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "You walk towards the exit.^1500 You continue through the halls, glancing into each classroom as you pass by.^1500 You feel like you’re being watched.^1500 Is someone else here?",
-            "id": "chapter-2-11-2",
-            "answer1": "continue",
-            "answer2": ""
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"","answer1Location":"poll-2","answer3Location":"","answer3":"","text":"You walk towards the exit.^1500 You continue through the halls, glancing into each classroom as you pass by.^1500 You feel like you’re being watched.^1500 Is someone else here?","id":"chapter-2-11-2","answer1":"continue","answer2":""},"isProd":true}}

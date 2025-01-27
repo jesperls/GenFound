@@ -1,15 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "",
-            "answer1Location": "2-8",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "You walk towards the windows.^1500 It’s dark out, so dark you can barely see the world past a few feet.^1500 As you stare into the void you swear you can make out a figure in the darkness staring back at you.^1500 You look down at the lock, its glued shut.^1500 You peek back outside and the figure seems to be gone.^1500 You blame it on exhaustion.^1500 Wondering what time it could be, you glance at your watch.^1500 Crap, battery must be dead.",
-            "id": "chapter-2-7-1",
-            "answer1": "leave",
-            "answer2": ""
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"","answer1Location":"2-8","answer3Location":"","answer3":"","text":"You walk towards the windows.^1500 It’s dark out, so dark you can barely see the world past a few feet.^1500 As you stare into the void you swear you can make out a figure in the darkness staring back at you.^1500 You look down at the lock, its glued shut.^1500 You peek back outside and the figure seems to be gone.^1500 You blame it on exhaustion.^1500 Wondering what time it could be, you glance at your watch.^1500 Crap, battery must be dead.","id":"chapter-2-7-1","answer1":"leave","answer2":""},"isProd":true}}

@@ -1,11 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "You walk over to the tapes and look at the film.^1500 The film look’s like it’s been ripped out of the plastic case and unravelled in a pile on the table. ^1500 You look a little closer. ^1500 It's covered in cuts that are stuck back together with clear tape. ^1500 You wonder how it’s still playable.",
-            "answer1": "Leave",
-            "answer1Location": "5-6-4-5",
-            "id": "chapter-5-6-4-4"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"You walk over to the tapes and look at the film.^1500 The film look’s like it’s been ripped out of the plastic case and unravelled in a pile on the table. ^1500 You look a little closer. ^1500 It's covered in cuts that are stuck back together with clear tape. ^1500 You wonder how it’s still playable.","answer1":"Leave","answer1Location":"5-6-4-5","id":"chapter-5-6-4-4"},"isProd":true}}

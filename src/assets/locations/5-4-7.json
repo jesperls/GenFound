@@ -1,11 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "You walk closer. ^500 With every step you lose energy. ^1000 You try and catch your breath, but your breathing only gets heavier. ^1500 You stop yourself from throwing up. ^1000 You rush to the bathroom.",
-            "answer1": "bathroom",
-            "answer1Location": "5-4-3",
-            "id": "chapter-5-4-7"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"You walk closer. ^500 With every step you lose energy. ^1000 You try and catch your breath, but your breathing only gets heavier. ^1500 You stop yourself from throwing up. ^1000 You rush to the bathroom.","answer1":"bathroom","answer1Location":"5-4-3","id":"chapter-5-4-7"},"isProd":true}}

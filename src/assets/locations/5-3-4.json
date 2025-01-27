@@ -1,11 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "You walk over to the teacher’s desk. ^1500 You feel a sense of déjà vu looking at your teacher’s things. ^1500 It feels like you’re forgetting something. ^1500 There isn't anything else of note on her desk besides a photo of her python.",
-            "answer1": "teachers desk",
-            "answer1Location": "5-3-5",
-            "id": "chapter-5-3-4"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"You walk over to the teacher’s desk. ^1500 You feel a sense of déjà vu looking at your teacher’s things. ^1500 It feels like you’re forgetting something. ^1500 There isn't anything else of note on her desk besides a photo of her python.","answer1":"leave","answer1Location":"5-3-5","id":"chapter-5-3-4"},"isProd":true}}

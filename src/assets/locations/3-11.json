@@ -1,16 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "3-12-2",
-            "answer1Location": "3-12-1",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "You run out of the lab into the hallway. ^1500It seems to go on forever. ^1500Surely there is somewhere you can hide.",
-            "address": "",
-            "answer1": "keep running",
-            "id": "chapter-3-11",
-            "answer2": "janitor closet"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"3-12-2","answer1Location":"3-12-1","answer3Location":"","answer3":"","text":"You run out of the lab into the hallway. ^1500It seems to go on forever. ^1500Surely there is somewhere you can hide.","address":"","answer1":"keep running","id":"chapter-3-11","answer2":"janitor closet"},"isProd":true}}

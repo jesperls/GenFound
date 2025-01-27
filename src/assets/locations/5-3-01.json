@@ -1,11 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "You look at your desk and see your class notes. ^1500 You can pinpoint the exact moment you stopped paying attention and started to doodle. ^1500 Your math notes cut off as a crude drawing of a robot takes up the rest of the page, the ink is smudged and splattered.",
-            "answer1": "look around",
-            "answer1Location": "5-3-0",
-            "id": "chapter-5-3-01"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"You look at your desk and see your class notes. ^1500 You can pinpoint the exact moment you stopped paying attention and started to doodle. ^1500 Your math notes cut off as a crude drawing of a robot takes up the rest of the page, the ink is smudged and splattered.","answer1":"look around","answer1Location":"5-3-0","id":"chapter-5-3-01"},"isProd":true}}

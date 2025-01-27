@@ -1,16 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "",
-            "answer1Location": "4-12-2",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "You walk towards the windows. ^1500It’s dark out, so dark you can barely see outside past a few feet. ^1500Wondering what time it could be, you glance at your watch. ^1500Crap^500, battery must be dead.",
-            "address": "",
-            "answer1": "leave",
-            "id": "chapter-4-12-1",
-            "answer2": ""
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"","answer1Location":"4-12-2","answer3Location":"","answer3":"","text":"You walk towards the windows. ^1500It’s dark out, so dark you can barely see outside past a few feet. ^1500Wondering what time it could be, you glance at your watch. ^1500Crap^500, battery must be dead.","address":"","answer1":"leave","id":"chapter-4-12-1","answer2":""},"isProd":true}}

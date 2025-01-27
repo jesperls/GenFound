@@ -1,11 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "You turn the computer off and leave.^1500 You brush it off as one of the science teachers here late working.",
-            "answer1Location": "4-14",
-            "id": "chapter-4-23-2",
-            "answer1": "continue"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"You turn the computer off and leave.^1500 You brush it off as one of the science teachers here late working.","answer1Location":"4-14","id":"chapter-4-23-2","answer1":"continue"},"isProd":true}}

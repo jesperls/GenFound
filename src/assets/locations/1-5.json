@@ -1,16 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "1-5-1",
-            "answer1Location": "poll-1",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "you look into the round window of the door.^1500^media ",
-            "address": "1-5.png",
-            "id": "chapter-1-5",
-            "answer1": "turn around",
-            "answer2": "keep walking"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"1-5-1","answer1Location":"poll-1","answer3Location":"","answer3":"","text":"you look into the round window of the door.^1500^media ","address":"1-5.png","id":"chapter-1-5","answer1":"turn around","answer2":"keep walking"},"isProd":true}}

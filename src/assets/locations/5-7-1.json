@@ -1,11 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "You walk closer to the principals' office. ^1500As you walk, you accidentally kick something on the ground. ^1500A piece of glass flies across the floor and spins in place. ^1500You look at the trophy case across from the principals' office door. ^1500A large hole in the center of the window with glass shards littering the floor.",
-            "answer1": "walk",
-            "answer1Location": "5-7-2",
-            "id": "chapter-5-7-1"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"You walk closer to the principals' office. ^1500As you walk, you accidentally kick something on the ground. ^1500A piece of glass flies across the floor and spins in place. ^1500You look at the trophy case across from the principals' office door. ^1500A large hole in the center of the window with glass shards littering the floor.","answer1":"walk","answer1Location":"5-7-2","id":"chapter-5-7-1"},"isProd":true}}

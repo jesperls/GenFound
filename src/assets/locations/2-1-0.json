@@ -1,12 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "You look through the window.^2000^media",
-            "address": "2-1-0.png",
-            "answer1Location": "2-1-1",
-            "id": "chapter-2-1-0",
-            "answer1": "keep walking"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"You look through the window.^2000^media","address":"2-1-0.png","answer1Location":"2-1-1","id":"chapter-2-1-0","answer1":"keep walking"},"isProd":true}}

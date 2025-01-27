@@ -1,13 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "4-23-2",
-            "text": "You go to turn the computer back on.^1500 The fans whir and the screen begins to light up.^1500 You jump at the loud boot-up jingle.^1500 You wait for the computer’s screen to turn on.^1500 The fans keep whirring, the screen stays dark.^1500 You keep waiting.^1500 Nothing.^1500 Left with your thoughts you begin to worry about being caught once again.^1500 Should you just turn the computer off and leave?",
-            "answer1Location": "4-23-1",
-            "id": "chapter-4-22-1",
-            "answer1": "wait",
-            "answer2": "leave"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"4-23-2","text":"You go to turn the computer back on.^1500 The fans whir and the screen begins to light up.^1500 You jump at the loud boot-up jingle.^1500 You wait for the computer’s screen to turn on.^1500 The fans keep whirring, the screen stays dark.^1500 You keep waiting.^1500 Nothing.^1500 Left with your thoughts you begin to worry about being caught once again.^1500 Should you just turn the computer off and leave?","answer1Location":"4-23-1","id":"chapter-4-22-1","answer1":"wait","answer2":"leave"},"isProd":true}}

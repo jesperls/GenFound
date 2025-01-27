@@ -1,13 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "4-27-2",
-            "text": "You turn the corner.^3000 The janitor lays in front of you in a pool of his own blood.^5000 His head a few feet away slightly rocking back and forth.^1500 His eyes lifeless and empty.^5000 It all comes rushing back to you.^1500 You aren’t safe.^1500<br><br>You hear footsteps down the hall.",
-            "answer1Location": "4-27-1",
-            "id": "chapter-4-26",
-            "answer1": "run",
-            "answer2": "hide"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"4-27-2","text":"You turn the corner.^3000 The janitor lays in front of you in a pool of his own blood.^5000 His head a few feet away slightly rocking back and forth.^1500 His eyes lifeless and empty.^5000 It all comes rushing back to you.^1500 You aren’t safe.^1500<br><br>You hear footsteps down the hall.","answer1Location":"4-27-1","id":"chapter-4-26","answer1":"run","answer2":"hide"},"isProd":true}}

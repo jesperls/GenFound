@@ -1,15 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "5-4-4",
-            "answer1Location": "5-4-3",
-            "answer3Location": "5-4-5",
-            "answer3": "library",
-            "text": "The hallway is dark, only illuminated by the red EXIT sign at the end of the hallway.  ^1500 You’re still breathing heavy. ^1500 You feel lightheaded. ^500 Maybe you ate something weird? ^1500 You feel like you’re going to be sick.",
-            "answer1": "bathroom",
-            "id": "chapter-5-4-0",
-            "answer2": "exit"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"5-4-4","answer1Location":"5-4-3","answer3Location":"5-4-5","answer3":"library","text":"The hallway is dark, only illuminated by the red EXIT sign at the end of the hallway.  ^1500 You’re still breathing heavy. ^1500 You feel lightheaded. ^500 Maybe you ate something weird? ^1500 You feel like you’re going to be sick.","answer1":"bathroom","id":"chapter-5-4-0","answer2":"exit"},"isProd":true}}

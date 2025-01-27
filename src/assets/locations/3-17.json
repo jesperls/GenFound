@@ -1,16 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "",
-            "answer1Location": "3-18",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "As you follow, he begins to explain your situation.^1500 <br><br>“You chose the wrong day to fall asleep.^1500 I thought I checked your classroom...”^1500 He says nearly under his breath.^1500 “From time to time this here creature outside tends to want in for some odd reason.^1500 And,^500 once a week,^500 it tries to get in and cause some damage.^1500 It doesn’t try very hard,^500 just a couple locked windows and boards on the doors seems to keep 'em out.^1500 The police tried to get involved but,^500 well,^500 they couldn’t find it from the outside.”^1500 The Janitor leads you through the hallways,^500 gesturing towards the locked doors and windows.",
-            "address": "",
-            "answer1": "continue",
-            "id": "chapter-3-17",
-            "answer2": ""
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"","answer1Location":"3-18","answer3Location":"","answer3":"","text":"As you follow, he begins to explain your situation.^1500 <br><br>“You chose the wrong day to fall asleep.^1500 I thought I checked your classroom...”^1500 He says nearly under his breath.^1500 “From time to time this here creature outside tends to want in for some odd reason.^1500 And,^500 once a week,^500 it tries to get in and cause some damage.^1500 It doesn’t try very hard,^500 just a couple locked windows and boards on the doors seems to keep 'em out.^1500 The police tried to get involved but,^500 well,^500 they couldn’t find it from the outside.”^1500 The Janitor leads you through the hallways,^500 gesturing towards the locked doors and windows.","address":"","answer1":"continue","id":"chapter-3-17","answer2":""},"isProd":true}}

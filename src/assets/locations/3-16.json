@@ -1,16 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "",
-            "answer1Location": "3-17",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "“I'll explain on the way son,^500 let's get you out of here.”^1500 The janitor gets up,^500 grabs a key ring with more keys than ring,^500 and gestures you to follow.",
-            "address": "",
-            "answer1": "follow",
-            "id": "chapter-3-16",
-            "answer2": ""
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"","answer1Location":"3-17","answer3Location":"","answer3":"","text":"“I'll explain on the way son,^500 let's get you out of here.”^1500 The janitor gets up,^500 grabs a key ring with more keys than ring,^500 and gestures you to follow.","address":"","answer1":"follow","id":"chapter-3-16","answer2":""},"isProd":true}}

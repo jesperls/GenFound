@@ -1,16 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "3-5-2",
-            "answer1Location": "3-5-1",
-            "answer3Location": "3-5-3",
-            "answer3": "theatre",
-            "text": "You search the gym.^1500 As you do,^250 you see a large bulky silhouette peering through one of the windows, and walk away.^1500 You look everywhere for some kind of exit, or something that can help you handle whatever is outside, but unless its weakness is a rubber ball, you don’t find anything.^1500 You feel like the answer to your problem isn’t going to be here.^1500 Best to continue on.",
-            "address": "",
-            "answer1": "storage",
-            "id": "chapter-3-4-2",
-            "answer2": "lab"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"3-5-2","answer1Location":"3-5-1","answer3Location":"3-5-3","answer3":"theatre","text":"You search the gym.^1500 As you do,^250 you see a large bulky silhouette peering through one of the windows, and walk away.^1500 You look everywhere for some kind of exit, or something that can help you handle whatever is outside, but unless its weakness is a rubber ball, you don’t find anything.^1500 You feel like the answer to your problem isn’t going to be here.^1500 Best to continue on.","address":"","answer1":"storage","id":"chapter-3-4-2","answer2":"lab"},"isProd":true}}

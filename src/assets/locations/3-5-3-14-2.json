@@ -1,15 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "",
-            "answer1Location": "3-5-3-14-1",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "You walk down the hallway.^1500 As you make it to the end,^500 you realize that the exit has been boarded up.^1500 The nails and wood seem new.^1500 You see old holes from where this seemingly has been done before.",
-            "id": "chapter-3-5-3-14-2",
-            "answer1": "leave",
-            "answer2": ""
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"","answer1Location":"3-5-3-14-1","answer3Location":"","answer3":"","text":"You walk down the hallway.^1500 As you make it to the end,^500 you realize that the exit has been boarded up.^1500 The nails and wood seem new.^1500 You see old holes from where this seemingly has been done before.","id":"chapter-3-5-3-14-2","answer1":"leave","answer2":""},"isProd":true}}

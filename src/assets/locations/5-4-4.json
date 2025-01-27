@@ -1,11 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "You begin to walk towards the exit. ^1500 You feel heavier with every step. ^1500 Your heartbeat races. ^1500 You feel like you’re forgetting something. ^1500 You turn the corner to the exit. ^1500 The red one stands in front of the door. ^1500 Looking right at you.",
-            "answer1": "walk closer",
-            "answer1Location": "5-4-7",
-            "id": "chapter-5-4-4"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"You begin to walk towards the exit. ^1500 You feel heavier with every step. ^1500 Your heartbeat races. ^1500 You feel like you’re forgetting something. ^1500 You turn the corner to the exit. ^1500 The red one stands in front of the door. ^1500 Looking right at you.","answer1":"walk closer","answer1Location":"5-4-7","id":"chapter-5-4-4"},"isProd":true}}

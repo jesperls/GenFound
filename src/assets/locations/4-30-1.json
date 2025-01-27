@@ -1,13 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "4-31-1",
-            "text": "You turn right and keep running.^1500 You start breathing heavy, you’re tired, but not too tired to stop.",
-            "answer1": "left",
-            "answer1Location": "4-31-2",
-            "id": "chapter-4-30-1",
-            "answer2": "right"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"4-31-1","text":"You turn right and keep running.^1500 You start breathing heavy, you’re tired, but not too tired to stop.","answer1":"left","answer1Location":"4-31-2","id":"chapter-4-30-1","answer2":"right"},"isProd":true}}

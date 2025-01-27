@@ -1,13 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "4-29-5",
-            "text": "You take a left.^1500 The hallway in front of you is dark.^1500 Darker than anything you’ve seen before.^1500 You should <span class=\"white\">go back</span>.",
-            "answer1": "walk into the darkness",
-            "answer1Location": "4-28-6",
-            "id": "chapter-4-28-5",
-            "answer2": "go back"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"4-29-5","text":"You take a left.^1500 The hallway in front of you is dark.^1500 Darker than anything you’ve seen before.^1500 You should <span class=\"white\">go back</span>.","answer1":"walk into the darkness","answer1Location":"4-28-6","id":"chapter-4-28-5","answer2":"go back"},"isProd":true}}

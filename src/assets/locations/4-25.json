@@ -1,11 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "You walk towards the exit.^1500 You look into each classroom as you walk by.^1500 They all look identical, yet unfamiliar.^1500 Where are you?",
-            "answer1Location": "4-26",
-            "id": "chapter-4-25",
-            "answer1": "keep walking"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"You walk towards the exit.^1500 You look into each classroom as you walk by.^1500 They all look identical, yet unfamiliar.^1500 Where are you?","answer1Location":"4-26","id":"chapter-4-25","answer1":"keep walking"},"isProd":true}}

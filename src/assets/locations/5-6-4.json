@@ -1,11 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "You run into the science lab and shut the door closed behind you. ^1500You peek through the window to keep an eye on the hallway. ^1500You still hear footsteps, but can’t seem to see anything. ^1500You must be safe in here.",
-            "answer1": "look around",
-            "answer1Location": "5-6-4-1",
-            "id": "chapter-5-6-4"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"You run into the science lab and shut the door closed behind you. ^1500You peek through the window to keep an eye on the hallway. ^1500You still hear footsteps, but can’t seem to see anything. ^1500You must be safe in here.","answer1":"look around","answer1Location":"5-6-4-1","id":"chapter-5-6-4"},"isProd":true}}

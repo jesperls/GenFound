@@ -1,16 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "1-6-3",
-            "answer1Location": "1-5-1",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "you peek inside the door.^1500^media He appears to be taking notes as he watches.^1500 You cant see exactly what he is watching but you can only hear gears turning and screams.^1500 You hear the tape stop and rewind,^750 and play again.^3000 The door slams shut before you can get a better look.^1500 You feel a chill.^1500 Must have blown shut.^1500 Best to keep walking.",
-            "address": "1-6-2.png",
-            "id": "chapter-1-6-2",
-            "answer1": "keep walking",
-            "answer2": "try the door"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"1-6-3","answer1Location":"1-5-1","answer3Location":"","answer3":"","text":"you peek inside the door.^1500^media He appears to be taking notes as he watches.^1500 You can't see exactly what he is watching,^500 but you can only hear gears turning and screams.^1500 You hear the tape stop and rewind,^750 and play again.^3000 The door slams shut before you can get a better look.^1500 You feel a chill.^1500 Must have blown shut.^1500 Best to keep walking.","address":"1-6-2.png","answer1":"keep walking","id":"chapter-1-6-2","answer2":"try the door"},"isProd":true}}

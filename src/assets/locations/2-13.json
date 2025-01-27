@@ -1,16 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "2-14-2",
-            "answer1Location": "2-14-1",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "You jostle the door handle.^1500 To everyone’s surprise, it’s locked.^1500 As you peek through the window you can only barely make out the desk before hearing the sound of broken glass behind you.^media^1500 You quickly turn to see the large wooden trophy case, and a large hole in the glass.",
-            "address": "glass_breaking.wav",
-            "id": "chapter-2-13",
-            "answer1": "inspect the trophy case",
-            "answer2": "try the door"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"2-14-2","answer1Location":"2-14-1","answer3Location":"","answer3":"","text":"You jostle the door handle.^1500 To everyone’s surprise, it’s locked.^1500 As you peek through the window, you can only barely make out the desk before hearing the sound of broken glass behind you.^media^1500 You quickly turn to see the large wooden trophy case, and a large hole in the glass.","address":"glass_breaking.wav","answer1":"inspect the trophy case","id":"chapter-2-13","answer2":"try the door"},"isProd":true}}

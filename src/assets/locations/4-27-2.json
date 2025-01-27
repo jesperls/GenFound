@@ -1,13 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "4-27-3",
-            "text": "You quickly jump into a nearby locker.^1500 It’s a lot less spacious than you remember.^1500 You hear faint footsteps.",
-            "answer1": "run",
-            "answer1Location": "4-27-1",
-            "id": "chapter-4-27-2",
-            "answer2": "hide"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"4-27-3","text":"You quickly jump into a nearby locker.^1500 It’s a lot less spacious than you remember.^1500 You hear faint footsteps.","answer1":"run","answer1Location":"4-27-1","id":"chapter-4-27-2","answer2":"hide"},"isProd":true}}

@@ -1,13 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "5-3-2",
-            "text": "You look around and spot the moonlight seeping in from the window. ^1500 It’s late. ^500 You must’ve fallen asleep in class. ^1500 You don’t usually do that, but the janitor should’ve woken you up. ^1500 You think about the janitor for a moment. ^1500 You feel like you’re forgetting something.",
-            "answer1": "get up",
-            "answer1Location": "5-3-1",
-            "id": "chapter-5-3-0",
-            "answer2": "think"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"5-3-2","text":"You look around and spot the moonlight seeping in from the window. ^1500 It’s late. ^500 You must’ve fallen asleep in class. ^1500 You don’t usually do that, but the janitor should’ve woken you up. ^1500 You think about the janitor for a moment. ^1500 You feel like you’re forgetting something.","answer1":"get up","answer1Location":"5-3-1","id":"chapter-5-3-0","answer2":"think"},"isProd":true}}

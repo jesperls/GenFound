@@ -1,11 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "You climb into the ceiling. ^1500The dust grows thicker as you push yourself up. ^1500You peer into the cloud. ^1500You can barely make out a faint red silhouette. ^1500As the dust settles... you find yourself back in the entrance of the classroom.",
-            "answer1": "keep looking",
-            "answer1Location": "5-5-0-1",
-            "id": "chapter-5-5-5-1"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"You climb into the ceiling. ^1500The dust grows thicker as you push yourself up. ^1500You peer into the cloud. ^1500You can barely make out a faint red silhouette. ^1500As the dust settles... you find yourself back in the entrance of the classroom.","answer1":"keep looking","answer1Location":"5-5-0-1","id":"chapter-5-5-5-1"},"isProd":true}}

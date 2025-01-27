@@ -1,15 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "2-7-2",
-            "answer1Location": "2-7-1",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "You get up from your desk, taking your bag with you.^1500 You look around the classroom, only illuminated by the moonlight.^1500 It's unsettling seeing it this quiet for once.",
-            "id": "chapter-2-6-1",
-            "answer1": "look out the window",
-            "answer2": "teachers desk"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"2-7-2","answer1Location":"2-7-1","answer3Location":"","answer3":"","text":"You get up from your desk, taking your bag with you.^1500 You look around the classroom, only illuminated by the moonlight.^1500 It's unsettling, seeing it this quiet for once.","answer1":"look out the window","id":"chapter-2-6-1","answer2":"teachers desk"},"isProd":true}}

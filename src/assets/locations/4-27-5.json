@@ -1,15 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "",
-            "metadata": "",
-            "answer1Location": "4-27-1",
-            "text": "You’re still in the locker.^1500 You hear a noise behind the door.^1500 You crouch down and slightly open the door to peek outside.^1500 You cover your mouth to stop yourself from making a noise. ^4750^media You freeze.^1500 You wait until the dragging grows faint.^1500 You quietly slide out of the locker.^1500 The door swings shut with a loud slam that echoes through the halls.^1500 The sound of dragging stops.",
-            "address": "4-27-5.png",
-            "answer1": "run",
-            "id": "chapter-4-27-5",
-            "answer2": ""
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"","metadata":"","answer1Location":"4-27-1","text":"You’re still in the locker.^1500 You hear a noise behind the door.^1500 You crouch down and slightly open the door to peek outside.^1500 You cover your mouth to stop yourself from making a noise. ^4750^media You freeze.^1500 You wait until the dragging grows faint.^1500 You quietly slide out of the locker.^1500 The door swings shut with a loud slam that echoes through the halls.^1500 The sound of dragging stops.","address":"4-27-5.png","answer1":"run","id":"chapter-4-27-5","answer2":""},"isProd":true}}

@@ -1,15 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "",
-            "answer1Location": "3-20",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "“Did you say earlier that it-^500 it was grabbing you THROUGH a window?”^1500 The janitor looks a little concerned.^3000 “Well yeah,”^500 You answer^500 “I tried getting through an open window in the lab,^500 but I didnt even get close.” ",
-            "id": "chapter-3-19",
-            "answer1": "continue",
-            "answer2": ""
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"","answer1Location":"3-20","answer3Location":"","answer3":"","text":"“Did you say earlier that it-^500 it was grabbing you THROUGH a window?”^1500 The janitor looks a little concerned.^3000 “Well yeah,”^500 You answer^500 “I tried getting through an open window in the lab,^500 but I didnt even get close.” ","id":"chapter-3-19","answer1":"continue","answer2":""},"isProd":true}}

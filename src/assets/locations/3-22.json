@@ -1,16 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "",
-            "answer1Location": "3-23",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "“Okay, you have to listen to me and listen closely.^1500 I have to find the key to get through the main doors.^1500 If the big guy starts comin' by,^500 you need to HIDE.^1500 I'll be okay.^1500 Don’t try to be brave alright?^1500 I can take em”^1500 <br><br>\nYou nod as you approach the main doors",
-            "address": "",
-            "answer1": "continue",
-            "id": "chapter-3-22",
-            "answer2": ""
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"","answer1Location":"3-23","answer3Location":"","answer3":"","text":"“Okay, you have to listen to me and listen closely.^1500 I have to find the key to get through the main doors.^1500 If the big guy starts comin' by,^500 you need to HIDE.^1500 I'll be okay.^1500 Don’t try to be brave alright?^1500 I can take em”^1500 <br><br>\nYou nod as you approach the main doors","address":"","answer1":"continue","id":"chapter-3-22","answer2":""},"isProd":true}}

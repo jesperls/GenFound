@@ -1,11 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "You can’t think of any passwords right now.^1500 You turn the computer off and leave.",
-            "answer1Location": "4-14",
-            "id": "chapter-4-24-1",
-            "answer1": "continue"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"You can’t think of any passwords right now.^1500 You turn the computer off and leave.","answer1Location":"4-14","id":"chapter-4-24-1","answer1":"continue"},"isProd":true}}

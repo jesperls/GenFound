@@ -1,13 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "5-6-7-2",
-            "text": "You walk back down the hall the way you came. ^1500You don’t care for the footsteps that follow you. ^1500You stomp through the halls, checking every corridor for an exit. ^1500You swear there were exits here, but every turn is just more lockers. ^1500More classrooms. ^1500More school.",
-            "answer1": "stop",
-            "answer1Location": "5-6-7-1",
-            "id": "chapter-5-6-7-0",
-            "answer2": "keep walking"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"5-6-7-2","text":"You walk back down the hall the way you came. ^1500You don’t care for the footsteps that follow you. ^1500You stomp through the halls, checking every corridor for an exit. ^1500You swear there were exits here, but every turn is just more lockers. ^1500More classrooms. ^1500More school.","answer1":"stop","answer1Location":"5-6-7-1","id":"chapter-5-6-7-0","answer2":"keep walking"},"isProd":true}}

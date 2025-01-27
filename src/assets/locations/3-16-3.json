@@ -1,16 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "",
-            "answer1Location": "3-17-1",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "As you stand there, frozen, you hear the figure pass through the room.^1500 Focused on listening for the footsteps, you don’t realize the box you were reaching for topple over and fall to the ground in a loud crash.^1500 The footsteps draw closer.",
-            "address": "",
-            "answer1": "continue",
-            "id": "chapter-3-16-3",
-            "answer2": ""
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"","answer1Location":"3-17-1","answer3Location":"","answer3":"","text":"As you stand there, frozen, you hear the figure pass through the room.^1500 Focused on listening for the footsteps, you don’t realize the box you were reaching for topple over and fall to the ground in a loud crash.^1500 The footsteps draw closer.","address":"","answer1":"continue","id":"chapter-3-16-3","answer2":""},"isProd":true}}

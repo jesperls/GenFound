@@ -1,11 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "You keep walking anyway.^1500 Eventually you’ll get somewhere.^1500 As you walk you look around.^1500 You can’t figure out where you are.^1500 You don’t remember the halls being this long.^1500 As your thoughts begin to spiral you suddenly trip over something in front of you, landing face first on the ground.^1500 You rub your eyes and look up.^1500 Flinching at the light as your eyes adjust you look around.^1500 You’re back in the hall outside your classroom.",
-            "answer1": "get up",
-            "answer1Location": "4-29-12",
-            "id": "chapter-4-29-10"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"You keep walking anyway.^1500 Eventually you’ll get somewhere.^1500 As you walk you look around.^1500 You can’t figure out where you are.^1500 You don’t remember the halls being this long.^1500 As your thoughts begin to spiral you suddenly trip over something in front of you, landing face first on the ground.^1500 You rub your eyes and look up.^1500 Flinching at the light as your eyes adjust you look around.^1500 You’re back in the hall outside your classroom.","answer1":"get up","answer1Location":"4-29-12","id":"chapter-4-29-10"},"isProd":true}}

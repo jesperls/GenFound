@@ -1,12 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "metadata": "password",
-            "text": "",
-            "answer1Location": "4-24-1",
-            "id": "chapter-4-100",
-            "answer1": "leave"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"metadata":"password","text":"","answer1Location":"4-24-1","id":"chapter-4-100","answer1":"leave","answer2":"canyouhearme","answer2Location":"10-0-1"},"isProd":true}}

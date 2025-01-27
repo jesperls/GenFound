@@ -1,11 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "If someone’s been here, someone can come back and catch you.^1500 You leave quickly.",
-            "answer1Location": "4-14",
-            "id": "chapter-4-22-2",
-            "answer1": "continue"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"If someone’s been here, someone can come back and catch you.^1500 You leave quickly.","answer1Location":"4-14","id":"chapter-4-22-2","answer1":"continue"},"isProd":true}}

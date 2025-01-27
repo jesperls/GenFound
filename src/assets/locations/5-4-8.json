@@ -1,14 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "5-4-9",
-            "answer1Location": "5-4-2",
-            "text": "You walk into the darkness. ^1000 Your eyes adjust as you look around. ^1000 The library looks different than you remember. ^1500 You look at the shelves and notice they're empty.^1500 The posters on the walls are blank and obscured.^1500 Chairs are knocked over and shelves are toppled. ^1500 What happened in here?",
-            "address": "5-library.png",
-            "answer1": "leave",
-            "id": "chapter-5-4-8",
-            "answer2": "keep exploring"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"5-4-9","answer1Location":"5-4-2","text":"You walk into the darkness. ^1000 Your eyes adjust as you look around. ^1000 The library looks different than you remember. ^1500 You look at the shelves and notice they're empty.^1500 The posters on the walls are blank and obscured.^1500 Chairs are knocked over and shelves are toppled. ^1500 What happened in here?","address":"5-library.png","answer1":"leave","id":"chapter-5-4-8","answer2":"keep exploring"},"isProd":true}}

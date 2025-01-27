@@ -1,11 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "She checks her watch.^1500<br><br> “It’s nearly midnight.^1500 Way too late for you to be up.^1500 You do have a test tomorrow after all.”",
-            "answer1Location": "4-36-1",
-            "id": "chapter-4-35-3",
-            "answer1": "janitor is dead"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"She checks her watch.^1500<br><br> “It’s nearly midnight.^1500 Way too late for you to be up.^1500 You do have a test tomorrow after all.”","answer1Location":"4-36-1","id":"chapter-4-35-3","answer1":"janitor is dead"},"isProd":true}}

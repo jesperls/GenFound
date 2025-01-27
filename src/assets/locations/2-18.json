@@ -1,15 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "answer2Location": "",
-            "answer1Location": "2-10",
-            "answer3Location": "",
-            "answer3": "",
-            "text": "Your fear of being caught gets the best of you.^1500 You peek outside the door at the empty hallway outside.^1500 You quietly and gently close the door behind you.^1500 Surely the next person who tries to open the door will think they broke it.",
-            "id": "chapter-2-18",
-            "answer1": "continue",
-            "answer2": ""
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"answer2Location":"","answer1Location":"2-10","answer3Location":"","answer3":"","text":"Your fear of being caught gets the best of you.^1500 You peek outside the door at the empty hallway outside.^1500 You quietly and gently close the door behind you.^1500 Surely the next person who tries to open the door will think they broke it.","id":"chapter-2-18","answer1":"continue","answer2":""},"isProd":true}}

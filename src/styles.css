@@ -21,7 +21,11 @@ body {
   font-size: 1.5em;
 }
 
-.white {
+.fullred, .FULLRED {
+  color: rgb(65, 0, 0);
+}
+
+.white, .WHITE {
   color: white;
 }
 

@@ -1,11 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "You reach for the door handle again. ^1500The handle snaps off in your hand. ^1500You push on the door. ^1500It’s still locked. ^1500Why did you think that would work?",
-            "answer1Location": "5-5-0",
-            "id": "chapter-5-5-2-2",
-            "answer1": "keep looking"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"You reach for the door handle again. ^1500The handle snaps off in your hand. ^1500You push on the door. ^1500It’s still locked. ^1500Why did you think that would work?","answer1Location":"5-5-0","id":"chapter-5-5-2-2","answer1":"keep looking"},"isProd":true}}

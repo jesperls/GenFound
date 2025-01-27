@@ -1,11 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "She turns the corner.^1500<br><br> “I'm taking you home.”",
-            "answer1": "follow",
-            "answer1Location": "4-37",
-            "id": "chapter-4-36-3"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"She turns the corner.^1500<br><br> “I'm taking you home.”","answer1":"follow","answer1Location":"4-37","id":"chapter-4-36-3"},"isProd":true}}

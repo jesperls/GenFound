@@ -1,11 +1,1 @@
-{
-    "statusCode": 200,
-    "response": {
-        "chapter": {
-            "text": "You turn around and start running the other way.^1500 The halls are lined with classroom doors and lockers again.^1500 You glance behind you, the darkness is gone.",
-            "answer1Location": "4-32",
-            "id": "chapter-4-29-5",
-            "answer1": "keep walking"
-        }
-    }
-}
+{"statusCode":200,"response":{"chapter":{"text":"You turn around and start running the other way.^1500 The halls are lined with classroom doors and lockers again.^1500 You glance behind you, the darkness is gone.","answer1Location":"4-32","id":"chapter-4-29-5","answer1":"keep walking"},"isProd":true}}
