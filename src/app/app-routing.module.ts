@@ -5,15 +5,15 @@ import { AlphabetComponent } from './alphabet/alphabet.component';
 import { ObsidianComponent } from './obsidian/obsidian.component';
 
 const routes: Routes = [
-  { path: 'chapters/:chapterLocation', component: PanelComponent },
+  { path: 'chapters', component: PanelComponent },
   { path: 'alphabet', component: AlphabetComponent },
-  { path: 'obsidian/:chapter', component: ObsidianComponent },
-  { path: '', redirectTo: '/chapters/1-0', pathMatch: 'full' },
-  { path: '**', redirectTo: '/chapters/1-0' },
+  { path: 'obsidian', component: ObsidianComponent },
+  { path: '', redirectTo: '/chapters', pathMatch: 'full' },
+  { path: '**', redirectTo: '/chapters' },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, { useHash: true })],
+  imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
 })
 export class AppRoutingModule {}

@@ -4,26 +4,137 @@
   <button routerLink="/alphabet">Alphabet</button>
 </div>
 <div class="sub-header" *ngIf="selectedMain === 'Chapters'">
-  <button routerLink="/chapters/1-0" (click)="this.navigate()">Chapter 1</button>
-  <button routerLink="/chapters/2-0-0" (click)="this.navigate()">Chapter 2</button>
-  <button routerLink="/chapters/3-0-2" (click)="this.navigate()">Chapter 3</button>
-  <button routerLink="/chapters/4-0-2" (click)="this.navigate()">Chapter 4</button>
-  <button routerLink="/chapters/5-0-1" (click)="this.navigate()">Chapter 5</button>
-  <button routerLink="/chapters/6-0-2" (click)="this.navigate()">Chapter 6</button>
-  <button routerLink="/chapters/7-0-1" (click)="this.navigate()">Chapter 7</button>
-  <button routerLink="/chapters/8-0-1" (click)="this.navigate()">Chapter 8</button>
-  <button routerLink="/chapters/9-0-1" (click)="this.navigate()">Chapter 9</button>
+  <button
+    [routerLink]="['/chapters']"
+    [queryParams]="{ chapterLocation: '1-0' }"
+    (click)="navigate()"
+  >
+    Chapter 1
+  </button>
+
+  <button
+    [routerLink]="['/chapters']"
+    [queryParams]="{ chapterLocation: '2-0-0' }"
+    (click)="navigate()"
+  >
+    Chapter 2
+  </button>
+  <button
+    [routerLink]="['/chapters']"
+    [queryParams]="{ chapterLocation: '3-0-2' }"
+    (click)="navigate()"
+  >
+    Chapter 3
+  </button>
+
+  <button
+    [routerLink]="['/chapters']"
+    [queryParams]="{ chapterLocation: '4-0-2' }"
+    (click)="navigate()"
+  >
+    Chapter 4
+  </button>
+  <button
+    [routerLink]="['/chapters']"
+    [queryParams]="{ chapterLocation: '5-0-1' }"
+    (click)="navigate()"
+  >
+    Chapter 5
+  </button>
+
+  <button
+    [routerLink]="['/chapters']"
+    [queryParams]="{ chapterLocation: '6-0-2' }"
+    (click)="navigate()"
+  >
+    Chapter 6</button
+  ><button
+    [routerLink]="['/chapters']"
+    [queryParams]="{ chapterLocation: '7-0-1' }"
+    (click)="navigate()"
+  >
+    Chapter 7
+  </button>
+
+  <button
+    [routerLink]="['/chapters']"
+    [queryParams]="{ chapterLocation: '8-0-1' }"
+    (click)="navigate()"
+  >
+    Chapter 8
+  </button>
+  <button
+    [routerLink]="['/chapters']"
+    [queryParams]="{ chapterLocation: '9-0-1' }"
+    (click)="navigate()"
+  >
+    Chapter 9
+  </button>
 </div>
 
 <div class="sub-header" *ngIf="selectedMain === 'Obsidian'">
-  <button routerLink="/obsidian/1" (click)="this.navigate()">Flowchart 1</button>
-  <button routerLink="/obsidian/2" (click)="this.navigate()">Flowchart 2</button>
-  <button routerLink="/obsidian/3" (click)="this.navigate()">Flowchart 3</button>
-  <button routerLink="/obsidian/4" (click)="this.navigate()">Flowchart 4</button>
-  <button routerLink="/obsidian/5" (click)="this.navigate()">Flowchart 5</button>
-  <button routerLink="/obsidian/6" (click)="this.navigate()">Flowchart 6</button>
-  <button routerLink="/obsidian/7" (click)="this.navigate()">Flowchart 7</button>
-  <button routerLink="/obsidian/8" (click)="this.navigate()">Flowchart 8</button>
-  <button routerLink="/obsidian/9" (click)="this.navigate()">Flowchart 9</button>
+  <button
+    [routerLink]="['/obsidian']"
+    [queryParams]="{ chapter: '1' }"
+    (click)="navigate()"
+  >
+    Flowchart 1
+  </button>
+  <button
+    [routerLink]="['/obsidian']"
+    [queryParams]="{ chapter: '2' }"
+    (click)="navigate()"
+  >
+    Flowchart 2
+  </button>
+  <button
+    [routerLink]="['/obsidian']"
+    [queryParams]="{ chapter: '3' }"
+    (click)="navigate()"
+  >
+    Flowchart 3
+  </button>
+  <button
+    [routerLink]="['/obsidian']"
+    [queryParams]="{ chapter: '4' }"
+    (click)="navigate()"
+  >
+    Flowchart 4
+  </button>
+  <button
+    [routerLink]="['/obsidian']"
+    [queryParams]="{ chapter: '5' }"
+    (click)="navigate()"
+  >
+    Flowchart 5
+  </button>
+  <button
+    [routerLink]="['/obsidian']"
+    [queryParams]="{ chapter: '6' }"
+    (click)="navigate()"
+  >
+    Flowchart 6
+  </button>
+  <button
+    [routerLink]="['/obsidian']"
+    [queryParams]="{ chapter: '7' }"
+    (click)="navigate()"
+  >
+    Flowchart 7
+  </button>
+  <button
+    [routerLink]="['/obsidian']"
+    [queryParams]="{ chapter: '8' }"
+    (click)="navigate()"
+  >
+    Flowchart 8
+  </button>
+  <button
+    [routerLink]="['/obsidian']"
+    [queryParams]="{ chapter: '9' }"
+    (click)="navigate()"
+  >
+    Flowchart 9
+  </button>
 </div>
 <router-outlet></router-outlet>

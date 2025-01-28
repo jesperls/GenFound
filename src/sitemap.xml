@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage (no #) -->
+  <url>
+    <loc>https://genfound.net</loc>
+    <lastmod>2025-01-28</lastmod>
+  </url>
+
+  <!-- Chapters -->
+  <url>
+    <loc>https://genfound.net/chapters</loc>
+    <lastmod>2025-01-28</lastmod>
+  </url>
+
+  <!-- Obsidian -->
+  <url>
+    <loc>https://genfound.net/obsidian</loc>
+    <lastmod>2025-01-28</lastmod>
+  </url>
+
+  <!-- Alphabet -->
+  <url>
+    <loc>https://genfound.net/alphabet</loc>
+    <lastmod>2025-01-28</lastmod>
+  </url>
+
+</urlset>

@@ -18,17 +18,15 @@ export class ObsidianComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    this.route.params.subscribe(params => {
-      const chapter = params['chapter'];
-      if (chapter) {
-        const url = `/assets/Obsidian/Chapter${chapter}/Chapter${chapter}.html`;
-        this.obsidianUrl = this.sanitizer.bypassSecurityTrustResourceUrl(url);
-        this.analyticsService.trackEvent(
-          'OBSIDIAN_CLICKED',
-          `Obsidian Chapter ${chapter} clicked`,
-          'Obsidian'
-        );
-      }
+    this.route.queryParams.subscribe((qParams) => {
+      const chapter = qParams['chapter'] || '1';
+      const url = `/assets/Obsidian/Chapter${chapter}/Chapter${chapter}.html`;
+      this.obsidianUrl = this.sanitizer.bypassSecurityTrustResourceUrl(url);
+      this.analyticsService.trackEvent(
+        'OBSIDIAN_CLICKED',
+        `Obsidian Chapter ${chapter} clicked`,
+        'Obsidian'
+      );
     });
   }
 }

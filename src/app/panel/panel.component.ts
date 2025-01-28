@@ -23,14 +23,13 @@ export class PanelComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    this.route.params.subscribe(params => {
-      const location = params['chapterLocation'];
-      this.chapterLocation = location;
-      if (location) {
-        this.loadChapter(location);
-      }
+    this.route.queryParams.subscribe(qParams => {
+      const location = qParams['chapterLocation'];
+      this.chapterLocation = location || '1-0';
+      this.loadChapter(this.chapterLocation);
     });
   }
+  
 
   getTextWithoutMarkers(text: string): string {
     return text.replace(/\^\d+|\^media/g, '').toUpperCase();
@@ -78,7 +77,7 @@ export class PanelComponent implements OnInit {
     );
     this.http.get<Data>(`/assets/locations/${location}.json`).subscribe(response => {
       this.data = response;
-      this.router.navigate(['/chapters', location]);
+      this.router.navigate(['/chapters'], { queryParams: { chapterLocation: location } });
     });
   }
 
