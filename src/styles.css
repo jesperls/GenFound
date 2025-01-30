@@ -12,6 +12,7 @@
 /* Global styles */
 * {
   user-select: none;
+  scrollbar-width: none;
 }
 
 body {
@@ -22,7 +23,7 @@ body {
 }
 
 .fullred, .FULLRED {
-  color: rgb(65, 0, 0);
+  color: rgb(146, 0, 0);
 }
 
 .white, .WHITE {
@@ -33,4 +34,8 @@ body {
   width: 100%;
   height: calc(100vh - 50px); /* Adjust 50px to the height of your header */
   border: none;
+}
+
+.right, .RIGHT {
+  text-align: right;
 }

@@ -1,11 +1,15 @@
 /* Media styles */
 img,
 video {
-  max-width: 30%;
+  max-width: 40%;
   height: auto;
   display: block;
   margin: 0 auto;
   border: 2px solid red;
+}
+
+#chapter-location {
+  font-size: 2em;
 }
 
 /* Button styles */
@@ -14,8 +18,7 @@ button {
   color: red;
   border: 2px solid red;
   font-family: "VCR OSD Mono", monospace;
-  padding: 15px;
-  margin: 10px;
+  padding: 10px;
   cursor: pointer;
   font-size: 1.2em;
 }
@@ -30,14 +33,14 @@ p {
   font-family: "VCR OSD Mono", monospace;
   margin: 15px 0;
   font-size: 1.2em;
-  text-align: center;
+  text-align: left;
   user-select: text;
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
 }
 
 div {
-  padding: 15px;
+  padding: 10px;
   text-align: center;
   align-items: center;
   display: flex;
@@ -48,7 +51,7 @@ div {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 10px;
+  flex-wrap: wrap;
 }
 
 .poll-container {
@@ -56,6 +59,12 @@ div {
   flex-direction: row;
   justify-content: center;
   gap: 10px;
+}
+
+.chapter-container {
+  border: solid 2px red;
+  width: 60%;
+  margin: auto;
 }
 
 .poll {
@@ -80,14 +89,8 @@ textarea {
 }
 /* Responsive styles */
 @media (max-width: 768px) {
-  .button-container {
-    flex-direction: column;
-    gap: 0;
-  }
-
   button {
     width: 100%;
-    padding: 10px;
     margin: 0;
   }
 
@@ -104,5 +107,14 @@ textarea {
 
   div {
     padding: 5px;
+  }
+  #chapter-location {
+    font-size: 1.4em;
+  }
+  
+  .chapter-container {
+    border: solid 2px red;
+    width:90%;
+    margin: 0 auto;
   }
 }

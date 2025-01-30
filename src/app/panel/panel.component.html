@@ -1,5 +1,5 @@
 <div>
-  <p>{{ chapterLocation }}</p>
+  <div id="chapter-location">{{ chapterLocation }}</div>
 </div>
 <ng-template #mediaDisplay let-address>
   <ng-container [ngSwitch]="getMediaType(address)">
@@ -22,7 +22,7 @@
       controls
     ></audio>
     <i
-      ><p *ngSwitchCase="'text'" [innerHTML]="'Hidden Text: ' + address"></p
+      ><p *ngSwitchCase="'text'" [innerHTML]=address></p
     ></i>
     <!-- <p *ngSwitchDefault>Unsupported media type</p> -->
   </ng-container>
@@ -83,7 +83,7 @@
   </div>
 </ng-template>
 
-<div *ngIf="data">
+<div *ngIf="data" class="chapter-container">
   <div *ngIf="data.response.chapter">
     <div *ngIf="data.response.chapter.address">
       <ng-container
@@ -94,6 +94,7 @@
       ></ng-container>
     </div>
     <div *ngIf="data.response.chapter.metadata">
+      <span>Hidden metadata</span>
       <ng-container
         *ngTemplateOutlet="
           mediaDisplay;
